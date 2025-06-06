@@ -10,7 +10,7 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-4">Wingspan LA</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Empowering youth through community engagement, leadership development, and meaningful opportunities.
-              Together, we're building stronger communities and brighter futures.
+              Together, we&apos;re building stronger communities and brighter futures.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
