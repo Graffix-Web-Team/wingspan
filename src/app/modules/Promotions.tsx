@@ -44,7 +44,7 @@ const promotions = [
   },
 ]
 
-export default function Promotions() {
+export function Promotions() {
   return (
     <section id="promotions" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
