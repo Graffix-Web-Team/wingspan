@@ -1,4 +1,12 @@
-import { Benefits, CallToAction, Events, Hero, Promotions, Testimonial, Values } from "./modules";
+import {
+  Benefits,
+  CallToAction,
+  Events,
+  Hero,
+  Promotions,
+  Testimonial,
+  Values,
+} from "./modules";
 
 export default function Home() {
   return (
@@ -6,12 +14,12 @@ export default function Home() {
       <main>
         <Hero />
         <Events />
-        <Values />
         <Testimonial />
+        <Values />
         <Promotions />
         <Benefits />
         <CallToAction />
       </main>
     </div>
-  )
+  );
 }

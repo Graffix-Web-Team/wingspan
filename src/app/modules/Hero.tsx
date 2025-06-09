@@ -45,7 +45,7 @@ export function Hero() {
                 size="lg"
                 variant="outline"
                 className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
-                onClick={() => scrollToSection("values")}
+                onClick={() => scrollToSection("quote")}
               >
                 Learn More
               </Button>
