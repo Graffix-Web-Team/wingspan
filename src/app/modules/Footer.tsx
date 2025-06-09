@@ -1,4 +1,12 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react"
+import Image from "next/image";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  // Facebook,
+  // Instagram,
+  // Twitter,
+} from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,22 +15,37 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Organization Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Wingspan LA</h3>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Empowering youth through community engagement, leadership development, and meaningful opportunities.
-              Together, we&apos;re building stronger communities and brighter futures.
+            <div className="relative w-[250px] h-[100px]">
+              <Image
+                src="https://www.calstatelausu.org/_next/image?url=%2Flogos%2Fcalstatela.png&w=640&q=75"
+                alt="Cal State LA logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <p className="text-gray-300 mb-6 ml-3 leading-relaxed">
+              Leadership grows here
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            {/* <div className="flex space-x-4">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Twitter className="h-6 w-6" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -30,22 +53,28 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#mission" className="text-gray-300 hover:text-white transition-colors">
-                  Our Mission
+                <a
+                  href="https://www.calstatelausu.org/csi"
+                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Center for Student Involvement
                 </a>
               </li>
               <li>
-                <a href="#values" className="text-gray-300 hover:text-white transition-colors">
-                  Values
+                <a
+                  href="https://asicalstatela.org/"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Associated Students, Inc.
                 </a>
               </li>
               <li>
-                <a href="#events" className="text-gray-300 hover:text-white transition-colors">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#promotions" className="text-gray-300 hover:text-white transition-colors">
+                <a
+                  href="#promotions"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Promotions
                 </a>
               </li>
@@ -67,9 +96,9 @@ export function Footer() {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-gray-400 mt-0.5" />
                 <span className="text-gray-300">
-                  1234 Community Blvd
+                  5154 State University Dr.
                   <br />
-                  Los Angeles, CA 90210
+                  Los Angeles, CA 90032
                 </span>
               </div>
             </div>
@@ -78,17 +107,10 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Wingspan LA. All rights reserved. |
-            <a href="#" className="hover:text-white transition-colors ml-1">
-              Privacy Policy
-            </a>{" "}
-            |
-            <a href="#" className="hover:text-white transition-colors ml-1">
-              Terms of Service
-            </a>
+            © {new Date().getFullYear()} Wingspan LA. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
