@@ -7,6 +7,7 @@ import {
   // Instagram,
   // Twitter,
 } from "lucide-react";
+import { Link } from "@/components/ui/link";
 
 export function Footer() {
   return (
@@ -18,12 +19,12 @@ export function Footer() {
             <div className="relative w-[250px] h-[100px]">
               <Image
                 src="https://www.calstatelausu.org/_next/image?url=%2Flogos%2Fcalstatela.png&w=640&q=75"
-                alt="Cal State LA logo"
+                alt=""
                 fill
                 className="object-contain"
               />
             </div>
-            <p className="text-gray-300 mb-6 ml-3 leading-relaxed">
+            <p className="text-gray-300 mb-6 ml-2 leading-relaxed">
               Leadership grows here
             </p>
             {/* <div className="flex space-x-4">
@@ -53,29 +54,27 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="https://www.calstatelausu.org/csi"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Center for Student Involvement
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://asicalstatela.org/"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Associated Students, Inc.
-                </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href="#promotions"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  href="https://www.calstatela.edu/"
+                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
-                  Promotions
+                  Cal State LA
                 </a>
               </li>
             </ul>
