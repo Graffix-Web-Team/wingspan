@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ArrowRight, Mail } from "lucide-react"
 
-export default function CallToAction() {
+export function CallToAction() {
   return (
     <section id="get-involved" className="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

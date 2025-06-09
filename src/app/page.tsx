@@ -1,17 +1,8 @@
-import Navigation from "./components/navigation"
-import Hero from "./components/hero"
-import Values from "./components/values"
-import Testimonial from "./components/testimonial"
-import Events from "./components/events"
-import Promotions from "./components/promotions"
-import Benefits from "./components/benefits"
-import CallToAction from "./components/call-to-action"
-import Footer from "./components/footer"
+import { Benefits, CallToAction, Events, Hero, Promotions, Testimonial, Values } from "./modules";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <Navigation />
       <main>
         <Hero />
         <Values />
@@ -21,7 +12,6 @@ export default function Home() {
         <Benefits />
         <CallToAction />
       </main>
-      <Footer />
     </div>
   )
 }

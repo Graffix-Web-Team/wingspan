@@ -1,15 +1,16 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
-export default function Hero() {
+export function Hero() {
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <section id="mission" className="pt-16 pb-20 px-4 sm:px-6 lg:px-8">
@@ -17,21 +18,28 @@ export default function Hero() {
         <div className="text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-              Empowering Youth Through
-              <span className="text-blue-600 block">Community & Growth</span>
+              Wingspan Leadership Program
+              <span className="text-blue-600 block">
+                Expand Your Leadership Reach
+              </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 mb-12 leading-relaxed">
-              Wingspan LA is a transformative nonprofit program dedicated to nurturing young leaders, building stronger
-              communities, and creating pathways to success through mentorship, education, and meaningful opportunities.
+              The Wingspan Leadership Program strives to enhance our
+              students&apos; experience at Cal State LA through meaningful
+              opportunities to cultivate leadership skills, social
+              responsibility, and holistic development of students.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
-                onClick={() => scrollToSection("get-involved")}
               >
-                Join Our Program
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <Link href="https://forms.office.com/r/fpLZipPcJK">
+                  <span className="flex items-center">
+                    Sign Up
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </span>
+                </Link>
               </Button>
               <Button
                 size="lg"
@@ -46,5 +54,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
