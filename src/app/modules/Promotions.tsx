@@ -72,7 +72,7 @@ export function Promotions() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Leadership Milestones</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Students will participate in various opportunities to achieve the designations of Rising Leader, Soaring Leader, and Golden Leader. 
+            Students will participate in various training events to achieve the designations of Rising Leader, Soaring Leader, and Golden Leader. 
             Throughout the program, students will have opportunities to connect with peers and build community through in-person and online engagement. 
             Transfer students may be able to apply their prior leadership experience toward these levels.
           </p>
