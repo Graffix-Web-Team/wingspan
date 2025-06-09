@@ -47,33 +47,35 @@ export function Events() {
           {events.map((event, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full"
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-blue-100 rounded-lg p-3">
-                    <Calendar className="h-6 w-6 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-gray-900">{event.date}</div>
-                    <div className="flex items-center text-gray-600 mt-1">
-                      <Clock className="h-4 w-4 mr-1" />
-                      {event.time}
+              <div>
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center space-x-4">
+                    <div className="bg-blue-100 rounded-lg p-3">
+                      <Calendar className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-gray-900">{event.date}</div>
+                      <div className="flex items-center text-gray-600 mt-1">
+                        <Clock className="h-4 w-4 mr-1" />
+                        {event.time}
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{event.title}</h3>
+
+                <div className="flex items-center text-gray-600 mb-3">
+                  <MapPin className="h-4 w-4 mr-1" />
+                  {event.location}
+                </div>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">{event.description}</p>
               </div>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">{event.title}</h3>
-
-              <div className="flex items-center text-gray-600 mb-3">
-                <MapPin className="h-4 w-4 mr-1" />
-                {event.location}
-              </div>
-
-              <p className="text-gray-600 mb-4 leading-relaxed">{event.description}</p>
-
-              <Button variant="outline" className="w-full hover:bg-blue-50 hover:border-blue-300 transition-colors">
+              <Button className="w-full bg-white text-black border border-gray-300 hover:bg-gray-100 transition-colors">
                 Register Now
               </Button>
             </div>
