@@ -3,37 +3,37 @@ import { GraduationCap, Users, Briefcase, Award, Heart, Lightbulb } from "lucide
 const benefits = [
   {
     icon: GraduationCap,
-    title: "Educational Support",
+    title: "Hands-On Leadership Experience",
     description:
       "Tutoring, college prep, scholarship opportunities, and academic mentorship to help you succeed in school and beyond.",
   },
   {
     icon: Users,
-    title: "Leadership Development",
+    title: "Personal and Professional Development",
     description:
       "Hands-on leadership training, public speaking workshops, and opportunities to lead community projects.",
   },
   {
     icon: Briefcase,
-    title: "Career Preparation",
+    title: "Supportive Network of Emerging Leaders",
     description:
       "Internship placements, job readiness training, resume building, and networking with industry professionals.",
   },
   {
     icon: Award,
-    title: "Recognition & Awards",
+    title: "Clarity on Strengths and Leadership Style",
     description:
       "Achievement certificates, scholarship opportunities, and public recognition for your contributions and growth.",
   },
   {
     icon: Heart,
-    title: "Personal Growth",
+    title: "Practical Skills in Communication, Teamwork & Decision-Making",
     description:
       "Build confidence, develop emotional intelligence, and discover your passions through supportive mentorship.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation Skills",
+    title: "Stronger Campus and Community Connections",
     description: "Learn creative problem-solving, design thinking, and entrepreneurship skills for the modern world.",
   },
 ]
@@ -45,8 +45,8 @@ export function Benefits() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">What You&apos;ll Gain</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Participating in Wingspan LA provides you with valuable skills, experiences, and opportunities that will
-            benefit you throughout your life.
+            Participation provides you with valuable skills, experiences, and opportunities that will
+            benefit you throughout your academic and professional careers.
           </p>
         </div>
 
