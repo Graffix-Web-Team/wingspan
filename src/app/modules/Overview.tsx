@@ -22,7 +22,7 @@ export function Overview() {
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Empowering Youth Since 2015</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
               Wingspan LA was founded with a simple yet powerful vision: to create a space where young people from all
-              backgrounds could develop the skills, confidence, and connections needed to thrive in today's complex
+              backgrounds could develop the skills, confidence, and connections needed to thrive in today&apos;s complex
               world. What began as a small after-school program has grown into a comprehensive youth development
               initiative serving hundreds of students across Los Angeles County.
             </p>
@@ -169,7 +169,7 @@ export function Overview() {
                   populations.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  We employ a "learn by doing" philosophy, where participants gain knowledge through direct experience
+                  We employ a &quot;learn by doing&quot; philosophy, where participants gain knowledge through direct experience
                   and reflection. Rather than passive learning, our workshops and activities engage young people as
                   active participants in their own development journey.
                 </p>
