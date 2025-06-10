@@ -19,7 +19,7 @@ export function Hero() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
               Wingspan Leadership Program
-              <span className="text-blue-600 block">
+              <span className="text-primary block">
                 Expand Your Leadership Reach
               </span>
             </h1>
