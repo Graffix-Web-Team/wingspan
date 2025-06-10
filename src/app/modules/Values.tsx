@@ -61,7 +61,7 @@ export function Values() {
     <section id="values" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             The Seven &quot;C&quot;s of the Social Change Model
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -91,8 +91,8 @@ export function Values() {
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-[1.02] text-center w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <IconComponent className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-[#fef9c3] rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <IconComponent className="h-6 w-6 text-accent" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {value.title}

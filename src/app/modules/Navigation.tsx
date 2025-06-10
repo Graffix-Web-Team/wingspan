@@ -47,25 +47,25 @@ export function Navigation() {
             <div className="ml-10 flex items-baseline space-x-8">
               <button
                 onClick={() => scrollToSection("overview")}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors"
               >
                 Overview
               </button>
               <button
                 onClick={() => scrollToSection("events")}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors"
               >
                 Upcoming Events
               </button>
               <button
                 onClick={() => scrollToSection("benefits")}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors"
               >
                 Benefits
               </button>
               <Button
                 onClick={() => scrollToSection("get-involved")}
-                className="bg-blue-600 hover:bg-blue-700 text-white transition-colors"
+                className="bg-primary hover:bg-[#00687a] text-white transition-colors"
               >
                 Get Involved
               </Button>

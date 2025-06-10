@@ -1,10 +1,17 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline {
   --color-accent: #F6BE00;
   --color-light-background: #F5F1EB;
   --color-body-text: #2E2E2E;
   --color-primary: #007B91;
+  --font-sans: var(--font-inter-sans);
+  --font-serif: var(--font-dm-serif-display);
+}
+
+:root {
+  background-color: #F5F1EB;
+  color: #2E2E2E;
 }
 
 
