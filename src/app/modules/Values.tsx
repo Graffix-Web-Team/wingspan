@@ -1,52 +1,52 @@
 import {
-  Heart,
+  User,
+  Smile,
+  Flame,
   Users,
   Target,
-  Lightbulb,
-  Shield,
-  Rocket,
+  MessageCircle,
   Globe,
 } from "lucide-react";
 
 const values = [
   {
-    icon: Heart,
+    icon: User, // Consciousness of Self → internal awareness
     title: "Consciousness of Self",
     description:
       "Awareness of the beliefs, values, attitudes and emotions that motivate one to take action.",
   },
   {
-    icon: Users,
+    icon: Smile, // Congruence → authenticity, genuineness
     title: "Congruence",
     description:
       "Thinking, feeling and behaving with consistency, genuineness, authenticity and honesty towards others.",
   },
   {
-    icon: Target,
+    icon: Flame, // Commitment → energy, passion, drive
     title: "Commitment",
     description:
       "The motivational energy that drives individuals to serve the collective effort; implies passion, intensity and duration.",
   },
   {
-    icon: Lightbulb,
+    icon: Users, // Collaboration → teamwork, trust
     title: "Collaboration",
     description:
       "Working with others in a common effort. It empowers self and others through trust.",
   },
   {
-    icon: Shield,
+    icon: Target, // Common Purpose → shared vision, unity
     title: "Common Purpose",
     description:
       "Facilitates the group’s ability to engage in collective analysis of issues at hand and the task to be undertaken.",
   },
   {
-    icon: Rocket,
+    icon: MessageCircle, // Controversy with Civility → dialogue, differing views
     title: "Controversy with Civility",
     description:
       "Respect for others, a willingness to hear each other's views, and accepting differences in viewpoints.",
   },
   {
-    icon: Globe,
+    icon: Globe, // Citizenship → global/community engagement
     title: "Citizenship",
     description:
       "Fostering connections to society. Working for positive change on the behalf of others and the community.",
