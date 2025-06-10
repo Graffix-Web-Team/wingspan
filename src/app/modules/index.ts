@@ -4,6 +4,7 @@ export * from './Events';
 export * from './Footer';
 export * from './Hero';
 export * from './Navigation';
+export * from './Overview';
 export * from './Promotions';
 export * from './Testimonial';
 export * from './Values';
