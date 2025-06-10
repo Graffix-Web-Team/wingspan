@@ -65,10 +65,12 @@ export function Values() {
             The Seven &quot;C&quot;s of the Social Change Model
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Social responsibility and change for the common good are achieved
-            through the development of seven core values targeted at enhancing
-            students&apos; levels of self–awareness and ability to work with
-            others.
+            Grounded in the Social Change Model of Leadership (SCM), the
+            Wingspan Leadership Program incorporates leadership development,
+            educational awareness, and civic engagement. Social responsibility
+            and change for the common good are achieved through the development
+            of 7 core values targeted at enhancing students&apos; levels of
+            self–awareness and ability to work with others.
           </p>
         </div>
 
