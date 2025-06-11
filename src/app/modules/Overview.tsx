@@ -160,7 +160,7 @@ export function Overview() {
                 <h5 className="font-medium text-gray-900">Ongoing Involvement</h5>
                 <p className="text-gray-700">
                   Continued participation in leadership development opportunities throughout the year reinforces growth
-                  and aligns with Wingspan’s mission.
+                  and aligns with Wingspan&apos;s mission.
                 </p>
               </div>
             </li>
