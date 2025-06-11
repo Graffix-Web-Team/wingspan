@@ -7,7 +7,7 @@ import {
   Promotions,
   Testimonial,
   Values,
-} from "./modules";
+} from './modules';
 
 export default function Home() {
   return (

@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export function Overview() {
   return (
@@ -202,10 +202,12 @@ export function Overview() {
         {/* Call to Action */}
         {/*
         <div className="text-center">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-6">Ready to Learn More?</h3>
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+            Ready to Learn More?
+          </h3>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            We invite you to connect with our team to learn more about how Wingspan LA can support the young people in
-            your life.
+            We invite you to connect with our team to learn more about how
+            Wingspan LA can support the young people in your life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

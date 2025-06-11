@@ -8,7 +8,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 git clone https://github.com/Graffix-Web-Team/wingspan.git
 ```
 
-## Install dependencies 
+## Install dependencies
+
 ```
 npm install
 ```
