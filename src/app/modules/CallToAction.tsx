@@ -37,7 +37,11 @@ export function CallToAction() {
             // type="submit"
             className="space-y-4 bg-accent hover:bg-primary text-body-text py-3 transition-all duration-300 hover:scale-105 hover:text-light-background"
           >
-            <Link href="https://forms.office.com/r/fpLZipPcJK" target="_blank" className="w-full flex items-center justify-center">
+            <Link
+              href="https://forms.office.com/r/fpLZipPcJK"
+              target="_blank"
+              className="w-full flex items-center justify-center"
+            >
               Join Wingspan LA
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
