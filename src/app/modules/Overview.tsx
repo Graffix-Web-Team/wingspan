@@ -11,17 +11,13 @@ export function Overview() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Overview</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            "Leadership is a relational and ethical process of people together attempting to accomplish positive
-            change." – Komives, Lucas, McMahon (2007)
-          </p>
         </div>
 
         {/* Introduction Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-2 lg:order-1">
             <p className="text-gray-700 mb-6 leading-relaxed">
-              The Wingspan Leadership Program strives to enhance our students’ experience at Cal State LA through
+              The Wingspan Leadership Program strives to enhance our students&apos; experience at Cal State LA through
               meaningful opportunities to cultivate leadership skills, social responsibility, and holistic development.
               A core principle of the program is that all students have the potential for leadership. By participating
               in workshops and programs, joining and leading student organizations, and engaging in student governance
