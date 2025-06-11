@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 const supabaseImageUrl =
-  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//scm-diagram.png';
+  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//373-3731062_leadership-competencies-and-scm-social-change-model.png';
 
 const values = [
   {
