@@ -1,7 +1,7 @@
 'use client';
 
 import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { Link } from '@/components/ui/link';
 import { Button } from '@/components/ui/button';
 
 export function Hero() {
@@ -18,7 +18,7 @@ export function Hero() {
         <div className="text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-              Wingspan LA
+              Wingspan
               <span className="text-primary block font-serif">
                 Leadership Program
               </span>

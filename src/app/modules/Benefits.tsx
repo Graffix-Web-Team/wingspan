@@ -48,7 +48,7 @@ const benefits = [
 
 export function Benefits() {
   return (
-    <section className="py-20">
+    <section id="benefits" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -69,12 +69,14 @@ export function Benefits() {
                 key={index}
                 className="text-center group hover:scale-105 transition-all duration-300"
               >
+                <div>
                 <div className="w-16 h-16 bg-[#fef9c3] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#fef08a] transition-colors">
                   <IconComponent className="h-8 w-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4 h-[60px]">
                   {benefit.title}
                 </h3>
+                </div>
                 <p className="text-gray-600 leading-relaxed">
                   {benefit.description}
                 </p>

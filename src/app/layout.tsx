@@ -15,7 +15,7 @@ const interSans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Wingspan LA',
+  title: 'Wingspan Leadership Program',
   description:
     "The Wingspan Leadership Program strives to enhance our students' experience at Cal State LA through meaningful opportunities to cultivate leadership skills, social responsibility, and holistic development of students.",
 };
