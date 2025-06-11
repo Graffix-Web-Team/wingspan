@@ -1,53 +1,53 @@
-import { Calendar, Clock, MapPin } from "lucide-react";
+import { Calendar, Clock, MapPin } from 'lucide-react';
 
 const events = [
   {
-    date: "Sep 4",
-    time: "12:00 PM – 1:30 PM",
-    title: "Respectfully, No: Setting Boundaries Guilt-Free",
-    location: "Alhambra Room",
+    date: 'Sep 4',
+    time: '12:00 PM – 1:30 PM',
+    title: 'Respectfully, No: Setting Boundaries Guilt-Free',
+    location: 'Alhambra Room',
     description:
-      "Saying “no” doesn’t make you mean, it makes you mindful. Join this LEAD Series workshop to help you build the confidence to set healthy boundaries in your personal, academic, and professional life without guilt. Through real-life scenarios, reflective activities, and practical tools, you’ll learn how to communicate your needs clearly, protect your energy, and maintain strong relationships.",
+      'Saying “no” doesn’t make you mean, it makes you mindful. Join this LEAD Series workshop to help you build the confidence to set healthy boundaries in your personal, academic, and professional life without guilt. Through real-life scenarios, reflective activities, and practical tools, you’ll learn how to communicate your needs clearly, protect your energy, and maintain strong relationships.',
   },
   {
-    date: "Sep 18",
-    time: "12:00 PM – 1:30 PM",
-    title: "Lead Your Way: Embracing Neurodiversity in Leadership",
-    location: "Alhambra Room",
+    date: 'Sep 18',
+    time: '12:00 PM – 1:30 PM',
+    title: 'Lead Your Way: Embracing Neurodiversity in Leadership',
+    location: 'Alhambra Room',
     description:
-      "Join this LEAD Series workshop as we highlight how neurodivergent perspectives can drive creativity, empathy, and innovation in leadership spaces. You’ll explore your individual strengths, learn how to navigate challenges, and gain tools to lead in ways that feel authentic to you.",
+      'Join this LEAD Series workshop as we highlight how neurodivergent perspectives can drive creativity, empathy, and innovation in leadership spaces. You’ll explore your individual strengths, learn how to navigate challenges, and gain tools to lead in ways that feel authentic to you.',
   },
   {
-    date: "Oct 9",
-    time: "12:00 PM – 1:30 PM",
-    title: "Flop Era to Glow Up: Turning Failure into Fuel",
-    location: "Alhambra Room",
+    date: 'Oct 9',
+    time: '12:00 PM – 1:30 PM',
+    title: 'Flop Era to Glow Up: Turning Failure into Fuel',
+    location: 'Alhambra Room',
     description:
-      "Failure happens, and that’s okay! This LEAD Series workshop creates space to reflect on setbacks without shame, reframe what it means to “fail,” and learn how to bounce back stronger. Through honest conversations and practical strategies, you’ll explore how to grow from challenges and build resilience.",
+      'Failure happens, and that’s okay! This LEAD Series workshop creates space to reflect on setbacks without shame, reframe what it means to “fail,” and learn how to bounce back stronger. Through honest conversations and practical strategies, you’ll explore how to grow from challenges and build resilience.',
   },
   {
-    date: "Oct 23",
-    time: "12:00 PM – 1:30 PM",
-    title: "Say It With Your Chest: Speaking Up & Standing Strong",
-    location: "Alhambra Room",
+    date: 'Oct 23',
+    time: '12:00 PM – 1:30 PM',
+    title: 'Say It With Your Chest: Speaking Up & Standing Strong',
+    location: 'Alhambra Room',
     description:
-      "Finding your voice and speaking up can be challenging, but it is key to advocating for yourself and others. You’ll learn practical communication skills and ways to overcome fear or hesitation so you can say what matters with confidence.",
+      'Finding your voice and speaking up can be challenging, but it is key to advocating for yourself and others. You’ll learn practical communication skills and ways to overcome fear or hesitation so you can say what matters with confidence.',
   },
   {
-    date: "Nov 6",
-    time: "12:00 PM – 1:30 PM",
-    title: "End the Beef: How to Disagree Without Disrespect",
-    location: "Alhambra Room",
+    date: 'Nov 6',
+    time: '12:00 PM – 1:30 PM',
+    title: 'End the Beef: How to Disagree Without Disrespect',
+    location: 'Alhambra Room',
     description:
-      "This LEAD Series workshop teaches you how to manage disagreements respectfully. You’ll build emotional intelligence and active listening skills to turn conflict into positive collaboration.",
+      'This LEAD Series workshop teaches you how to manage disagreements respectfully. You’ll build emotional intelligence and active listening skills to turn conflict into positive collaboration.',
   },
   {
-    date: "Nov 20",
-    time: "12:00 PM – 1:30 PM",
-    title: "Main Character Energy: A Workshop on Self-Love",
-    location: "Alhambra Room",
+    date: 'Nov 20',
+    time: '12:00 PM – 1:30 PM',
+    title: 'Main Character Energy: A Workshop on Self-Love',
+    location: 'Alhambra Room',
     description:
-      "This LEAD Series workshop is all about stepping into your main character energy by embracing self-love and self-care. You’ll explore ways to build confidence, set boundaries, and nurture a positive relationship with yourself.",
+      'This LEAD Series workshop is all about stepping into your main character energy by embracing self-love and self-care. You’ll explore ways to build confidence, set boundaries, and nurture a positive relationship with yourself.',
   },
 ];
 

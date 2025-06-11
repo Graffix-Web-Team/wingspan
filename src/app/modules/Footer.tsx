@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 import {
   Mail,
   Phone,
@@ -6,8 +6,8 @@ import {
   // Facebook,
   // Instagram,
   // Twitter,
-} from "lucide-react";
-import { Link } from "@/components/ui/link";
+} from 'lucide-react';
+import { Link } from '@/components/ui/link';
 
 export function Footer() {
   return (

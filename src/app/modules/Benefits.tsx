@@ -5,44 +5,44 @@ import {
   Medal,
   MessageCircle,
   Lightbulb,
-} from "lucide-react";
+} from 'lucide-react';
 
 const benefits = [
   {
     icon: Handshake, // Hands-on experience
-    title: "Hands-On Leadership Experience",
+    title: 'Hands-On Leadership Experience',
     description:
-      "Tutoring, college prep, scholarship opportunities, and academic mentorship to help you succeed in school and beyond.",
+      'Tutoring, college prep, scholarship opportunities, and academic mentorship to help you succeed in school and beyond.',
   },
   {
     icon: BriefcaseBusiness, // Measurable skill-building (training, growth)
-    title: "Personal and Professional Development",
+    title: 'Personal and Professional Development',
     description:
-      "Hands-on leadership training, public speaking workshops, and opportunities to lead community projects.",
+      'Hands-on leadership training, public speaking workshops, and opportunities to lead community projects.',
   },
   {
     icon: Network, // Professional networking
-    title: "Supportive Network of Emerging Leaders",
+    title: 'Supportive Network of Emerging Leaders',
     description:
-      "Internship placements, job readiness training, resume building, and networking with industry professionals.",
+      'Internship placements, job readiness training, resume building, and networking with industry professionals.',
   },
   {
     icon: Medal, // Recognition
-    title: "Clarity on Strengths and Leadership Style",
+    title: 'Clarity on Strengths and Leadership Style',
     description:
-      "Achievement certificates, scholarship opportunities, and public recognition for your contributions and growth.",
+      'Achievement certificates, scholarship opportunities, and public recognition for your contributions and growth.',
   },
   {
     icon: MessageCircle, // Communication, speaking up
-    title: "Practical Skills in Communication, Teamwork & Decision-Making",
+    title: 'Practical Skills in Communication, Teamwork & Decision-Making',
     description:
-      "Build confidence, develop emotional intelligence, and discover your passions through supportive mentorship.",
+      'Build confidence, develop emotional intelligence, and discover your passions through supportive mentorship.',
   },
   {
     icon: Lightbulb, // Innovation, design thinking
-    title: "Stronger Campus and Community Connections",
+    title: 'Stronger Campus and Community Connections',
     description:
-      "Learn creative problem-solving, design thinking, and entrepreneurship skills for the modern world.",
+      'Learn creative problem-solving, design thinking, and entrepreneurship skills for the modern world.',
   },
 ];
 
@@ -70,12 +70,12 @@ export function Benefits() {
                 className="text-center group hover:scale-105 transition-all duration-300"
               >
                 <div>
-                <div className="w-16 h-16 bg-[#fef9c3] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#fef08a] transition-colors">
-                  <IconComponent className="h-8 w-8 text-accent" />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 h-[60px]">
-                  {benefit.title}
-                </h3>
+                  <div className="w-16 h-16 bg-[#fef9c3] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#fef08a] transition-colors">
+                    <IconComponent className="h-8 w-8 text-accent" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 h-[60px]">
+                    {benefit.title}
+                  </h3>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
                   {benefit.description}
