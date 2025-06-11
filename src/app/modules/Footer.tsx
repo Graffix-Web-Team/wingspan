@@ -11,7 +11,7 @@ import { Link } from "@/components/ui/link";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-body-text text-light-background py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Organization Info */}
@@ -25,7 +25,7 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-6 ml-2 leading-relaxed">
-              Leadership grows here
+              Leadership grows here!
             </p>
             {/* <div className="flex space-x-4">
               <a
@@ -104,7 +104,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
+        <div className="border-t border-accent mt-12 pt-8 text-center">
           <p className="text-gray-400">
             © {new Date().getFullYear()} Wingspan LA. All rights reserved.
           </p>
