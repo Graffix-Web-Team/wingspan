@@ -7,7 +7,7 @@ export function CallToAction() {
   return (
     <section
       id="get-involved"
-      className="py-30 bg-gradient-to-b from-white to-primary"
+      className="py-40 bg-gradient-to-b from-white to-primary"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-body-text mb-6">
