@@ -7,7 +7,7 @@ export function CallToAction() {
   return (
     <section
       id="get-involved"
-      className="py-20 bg-gradient-to-b from-white to-primary"
+      className="py-30 bg-gradient-to-b from-white to-primary"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-body-text mb-6">
@@ -22,8 +22,7 @@ export function CallToAction() {
           </h3>
           <p className="text-gray-600 mb-6">
             Fill out the form using the link below to start developing your
-            leadership potential and making a difference in your community
-            today.
+            leadership potential and making a difference here at Cal State LA.
           </p>
 
           {/* <form className="space-y-4">
