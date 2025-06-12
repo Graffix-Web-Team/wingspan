@@ -67,7 +67,7 @@ export function PresentedBy() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <p className="text-sm text-gray-500">
             Interested in partnering with Wingspan LA?{' '}
             <a
@@ -84,7 +84,7 @@ export function PresentedBy() {
               Get in touch
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

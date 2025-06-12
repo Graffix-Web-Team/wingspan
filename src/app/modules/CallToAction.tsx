@@ -15,14 +15,14 @@ export function CallToAction() {
         </h2>
         <div className="bg-white rounded-xl p-8 shadow-xl max-w-md mx-auto">
           <div className="flex items-center justify-center mb-6">
-            <Mail className="h-8 w-8 text-accent" />
+            <Mail className="h-8 w-8 text-accent" aria-hidden="true" />
           </div>
           <h3 className="text-2xl font-semibold text-gray-900 mb-4">
             Get Started Today
           </h3>
           <p className="text-gray-600 mb-6">
-            Fill out the form using the link below to start developing your
-            leadership potential and making a difference here at Cal State LA.
+            Fill out the form to start developing your leadership potential here
+            at Cal State LA
           </p>
 
           {/* <form className="space-y-4">
