@@ -29,9 +29,8 @@ export function PresentedBy() {
             Presented in Partnership With
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The Wingspan Leadership Program was put together through the
-            collaborative efforts of on-campus organizations dedicated to
-            student development.
+            The Wingspan Leadership Program is put together by the collaborative
+            efforts of on-campus organizations dedicated to student development.
           </p>
         </div>
 
