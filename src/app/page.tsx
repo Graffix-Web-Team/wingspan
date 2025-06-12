@@ -3,6 +3,7 @@ import {
   CallToAction,
   Events,
   Hero,
+  Overview,
   Promotions,
   Testimonial,
   Values,
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Testimonial />
+        <Overview />
         <Benefits />
         <Events />
         <Values />
