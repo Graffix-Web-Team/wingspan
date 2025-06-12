@@ -36,7 +36,7 @@ export function Overview() {
           </div>
           <div className="order-1 lg:order-2 relative h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//Image%20(19).jpg"
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Image%20(19).jpg"
               alt="Large group of students gathered outdoors under an arch of black, white, and gold balloons"
               fill
               className="object-cover"
@@ -115,7 +115,7 @@ export function Overview() {
               <div className="flex justify-center">
                 <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden shadow-sm">
                   <Image
-                    src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//20250418_210515803_iOS.jpg"
+                    src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/20250418_210515803_iOS.jpg"
                     alt="Audience seated at banquet tables listening to a keynote speaker during a leadership event"
                     fill
                     className="object-cover"
@@ -212,7 +212,7 @@ export function Overview() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             <div className="relative h-[200px] rounded-lg overflow-hidden shadow-sm">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//IMG_1348.JPG"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/IMG_1348.JPG"
                 alt="Three women on stage smiling and holding framed leadership awards"
                 fill
                 className="object-cover"
@@ -220,7 +220,7 @@ export function Overview() {
             </div>
             <div className="relative h-[200px] rounded-lg overflow-hidden shadow-sm">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//Image%20(20).jpg"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Image%20(20).jpg"
                 alt="Group photo of students posing with Eddie the Golden Eagle mascot indoors"
                 fill
                 className="object-cover"
