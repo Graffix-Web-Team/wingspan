@@ -5,17 +5,17 @@ import Image from 'next/image';
 const organizations = [
   {
     name: 'Center for Student Involvement',
-    logo: 'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/csi-logo.png',
+    logo: '/logos/csi-logo.png',
     website: 'https://www.calstatelausu.org/csi',
   },
   {
     name: 'University-Student Union',
-    logo: 'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/usu-dark-logo.jpg',
+    logo: '/logos/usu-dark-logo.png',
     website: 'https://calstatelausu.org',
   },
   {
     name: 'Associated Students, Inc.',
-    logo: 'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/asi-dark-logo.png',
+    logo: '/logos/asi-dark-logo.png',
     website: 'https://asicalstatela.org/',
   },
 ];
