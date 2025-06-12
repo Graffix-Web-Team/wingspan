@@ -36,7 +36,7 @@ export function Navigation() {
           <div className="flex-shrink-0">
             {/* <img src="/wingspan-logo.svg" alt="" className="h-8 w-auto" /> */}
             <Image
-              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//wingspan-logo.png"
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/wingspan-logo.png"
               alt=""
               width={150}
               height={60}
