@@ -3,6 +3,7 @@ export * from './CallToAction';
 export * from './Events';
 export * from './Footer';
 export * from './Hero';
+export * from './LearningOutcomes';
 export * from './Navigation';
 export * from './Overview';
 export * from './PresentedBy';
