@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Link } from '@/components/ui/link';
 import { Menu, X } from 'lucide-react';
 
 export function Navigation() {
@@ -34,12 +33,10 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
-              {/* <img src="/wingspan-logo.svg" alt="" className="h-8 w-auto" /> */}
-              <span className="text-2xl font-bold text-gray-900">
-                Wingspan LA
-              </span>
-            </Link>
+            {/* <img src="/wingspan-logo.svg" alt="" className="h-8 w-auto" /> */}
+            <span className="text-2xl font-bold text-gray-900">
+              Wingspan LA
+            </span>
           </div>
 
           {/* Desktop Navigation */}

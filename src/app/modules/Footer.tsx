@@ -70,12 +70,12 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://www.calstatela.edu/"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Cal State LA
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

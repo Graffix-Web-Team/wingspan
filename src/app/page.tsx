@@ -4,6 +4,7 @@ import {
   Events,
   Hero,
   Overview,
+  PresentedBy,
   Promotions,
   Testimonial,
   Values,
@@ -20,6 +21,7 @@ export default function Home() {
         <Events />
         <Values />
         <Promotions />
+        <PresentedBy />
         <CallToAction />
       </main>
     </div>

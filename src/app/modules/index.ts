@@ -5,6 +5,7 @@ export * from './Footer';
 export * from './Hero';
 export * from './Navigation';
 export * from './Overview';
+export * from './PresentedBy';
 export * from './Promotions';
 export * from './Testimonial';
 export * from './Values';
