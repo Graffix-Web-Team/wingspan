@@ -10,7 +10,7 @@ const organizations = [
   },
   {
     name: 'University-Student Union',
-    logo: 'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/USU-logo.jpg',
+    logo: 'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/usu-dark-logo.jpg',
     website: 'https://calstatelausu.org',
   },
   {
