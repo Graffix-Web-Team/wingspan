@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
@@ -34,9 +35,12 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             {/* <img src="/wingspan-logo.svg" alt="" className="h-8 w-auto" /> */}
-            <span className="text-2xl font-bold text-gray-900">
-              Wingspan LA
-            </span>
+            <Image
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//wingspan-logo.png"
+              alt=""
+              width={150}
+              height={60}
+            />
           </div>
 
           {/* Desktop Navigation */}
