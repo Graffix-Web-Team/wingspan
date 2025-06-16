@@ -18,7 +18,7 @@ export function LearningOutcomes() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h4 className="text-xl font-semibold text-primary mb-3">1.</h4>
+                <h3 className="text-xl font-semibold text-primary mb-3">1.</h3>
                 <p className="text-gray-700">
                   Articulate their own leadership philosophy in the context of
                   their multiple identities and values (i.e. school,
@@ -26,14 +26,14 @@ export function LearningOutcomes() {
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h4 className="text-xl font-semibold text-primary mb-3">2.</h4>
+                <h3 className="text-xl font-semibold text-primary mb-3">2.</h3>
                 <p className="text-gray-700">
                   Identify and apply key skills to effectively work with others
                   in academic, professional, and community settings.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h4 className="text-xl font-semibold text-primary mb-3">3.</h4>
+                <h3 className="text-xl font-semibold text-primary mb-3">3.</h3>
                 <p className="text-gray-700">
                   Identify and demonstrate strategies for how to enact change in
                   various educational, professional, and community environments.
@@ -90,8 +90,8 @@ export function LearningOutcomes() {
           <h4 className="text-xl font-semibold text-gray-900 mb-4">Pathways</h4>
           <ul className="space-y-4">
             <li className="flex gap-3">
-              <div className="w-6 h-6 rounded-full bg-[#b3e3ec] flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-primary font-semibold">1</span>
+              <div className="w-6 h-6 rounded-full bg-sky-200 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sky-800 font-semibold text-sm">1</span>
               </div>
               <div>
                 <h5 className="font-medium text-gray-900">
@@ -119,8 +119,8 @@ export function LearningOutcomes() {
             </li>
 
             <li className="flex gap-3">
-              <div className="w-6 h-6 rounded-full bg-[#b3e3ec] flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-primary font-semibold">2</span>
+              <div className="w-6 h-6 rounded-full bg-sky-200 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sky-800 font-semibold text-sm">2</span>
               </div>
               <div>
                 <h5 className="font-medium text-gray-900">
@@ -135,8 +135,8 @@ export function LearningOutcomes() {
             </li>
 
             <li className="flex gap-3">
-              <div className="w-6 h-6 rounded-full bg-[#b3e3ec] flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-primary font-semibold">3</span>
+              <div className="w-6 h-6 rounded-full bg-sky-200 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sky-800 font-semibold text-sm">3</span>
               </div>
               <div>
                 <h5 className="font-medium text-gray-900">
@@ -151,8 +151,8 @@ export function LearningOutcomes() {
             </li>
 
             <li className="flex gap-3">
-              <div className="w-6 h-6 rounded-full bg-[#b3e3ec] flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-primary font-semibold">4</span>
+              <div className="w-6 h-6 rounded-full bg-sky-200 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-sky-800 font-semibold text-sm">4</span>
               </div>
               <div>
                 <h5 className="font-medium text-gray-900">

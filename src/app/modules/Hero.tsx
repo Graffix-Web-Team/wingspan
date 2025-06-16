@@ -23,9 +23,9 @@ export function Hero() {
                 Leadership Program
               </span>
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed">
+            <h1 className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed">
               Expand Your Leadership Reach
-            </p>
+            </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
