@@ -64,24 +64,22 @@ export function LearningOutcomes() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
               <div className="flex justify-center">
-                <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden shadow-sm">
-                  <Image
-                    src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/IMG_1417.JPG"
-                    alt="Students seated at a banquet table during a leadership event"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                <Image
+                  src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-students-seated-at-table.webp"
+                  alt="Students seated at a banquet table during a leadership event"
+                  width={1280}
+                  height={720}
+                  className="rounded-lg shadow-sm object-cover"
+                />
               </div>
               <div className="flex justify-center">
-                <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden shadow-sm">
-                  <Image
-                    src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/20250418_210515803_iOS.jpg"
-                    alt="Audience seated at banquet tables listening to a keynote speaker during a leadership event"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                <Image
+                  src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-audience-listening-to-speaker.webp"
+                  alt="Audience seated at banquet tables listening to a keynote speaker during a leadership event"
+                  width={1280}
+                  height={720}
+                  className="rounded-lg shadow-sm object-cover"
+                />
               </div>
             </div>
           </div>
@@ -169,20 +167,22 @@ export function LearningOutcomes() {
           </ul>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-            <div className="relative h-[200px] rounded-lg overflow-hidden shadow-sm">
+            <div className="flex justify-center">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/IMG_1348.JPG"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-pathways-three-women-holding-award.webp"
                 alt="Three women on stage smiling and holding framed leadership awards"
-                fill
-                className="object-cover"
+                width={1280}
+                height={720}
+                className="rounded-lg shadow-sm object-cover object-top"
               />
             </div>
-            <div className="relative h-[200px] rounded-lg overflow-hidden shadow-sm">
+            <div className="flex justify-center">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Image%20(20).jpg"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-pathways-group-with-mascot.webp"
                 alt="Group photo of students posing with Eddie the Golden Eagle mascot indoors"
-                fill
-                className="object-cover"
+                width={1280}
+                height={720}
+                className="rounded-lg shadow-sm object-cover object-center"
               />
             </div>
           </div>
