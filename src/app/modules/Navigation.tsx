@@ -101,16 +101,16 @@ export function Navigation() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md rounded-lg mt-2">
               <button
-                onClick={() => scrollToSection('mission')}
+                onClick={() => scrollToSection('overview')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 w-full text-left transition-colors"
               >
-                Our Mission
+                Overview
               </button>
               <button
-                onClick={() => scrollToSection('values')}
+                onClick={() => scrollToSection('benefits')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 w-full text-left transition-colors"
               >
-                Values
+                Benefits
               </button>
               <button
                 onClick={() => scrollToSection('events')}
@@ -119,10 +119,10 @@ export function Navigation() {
                 Upcoming Events
               </button>
               <button
-                onClick={() => scrollToSection('promotions')}
+                onClick={() => scrollToSection('milestones')}
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 w-full text-left transition-colors"
               >
-                Promotions
+                Milestones
               </button>
               <Button
                 onClick={() => scrollToSection('get-involved')}
