@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { DM_Serif_Display, Inter } from 'next/font/google';
 import './globals.css';
 import { Footer, Navigation } from './modules';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const dmSerifDisplay = DM_Serif_Display({
   subsets: ['latin'],
@@ -85,6 +86,7 @@ export default function RootLayout({
       className={`${interSans.variable} ${dmSerifDisplay.variable} antialiased`}
     >
       <body>
+        <GoogleAnalytics />
         <Navigation />
         {children}
         <Footer />
