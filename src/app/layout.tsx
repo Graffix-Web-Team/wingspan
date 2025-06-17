@@ -3,6 +3,7 @@ import { DM_Serif_Display, Inter } from 'next/font/google';
 import './globals.css';
 import { Footer, Navigation } from './modules';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { Analytics } from '@vercel/analytics/react';
 
 const dmSerifDisplay = DM_Serif_Display({
   subsets: ['latin'],
@@ -87,6 +88,8 @@ export default function RootLayout({
     >
       <body>
         <GoogleAnalytics />
+        <Analytics />
+
         <Navigation />
         {children}
         <Footer />
