@@ -89,7 +89,6 @@ export default function RootLayout({
       <body>
         <GoogleAnalytics />
         <Analytics />
-
         <Navigation />
         {children}
         <Footer />
