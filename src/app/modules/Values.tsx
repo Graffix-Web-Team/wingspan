@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 const supabaseImageUrl =
-  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//values-model.webp';
+  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/values-model.webp';
 
 const values = [
   {
@@ -94,7 +94,10 @@ export function Values() {
                 className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-[1.02] text-center w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
               >
                 <div className="w-12 h-12 bg-[#fef9c3] rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <IconComponent className="h-6 w-6 text-accent" />
+                  <IconComponent
+                    className="h-6 w-6 text-accent"
+                    aria-hidden="true"
+                  />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {value.title}
