@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 const supabaseImageUrl =
-  'https://www.dropbox.com/scl/fi/8moorzavj6ld1hm3305hg/social-change-model.png?rlkey=z0whudvvlqkjrlelbov03i37z&st=pu0gnxvl&raw=1';
+  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//values-model.webp';
 
 const values = [
   {
