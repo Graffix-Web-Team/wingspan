@@ -44,12 +44,34 @@ export function LearningOutcomes() {
         </div>
 
         {/* Pathways Section */}
-        <div>
-          <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
-            Students can participate through:
-          </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 items-center">
+          {/* Left: Stacked images with smaller size */}
+          <div className="flex flex-col gap-4 items-center">
+            <div className="w-full max-w-[480px]">
+              <Image
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/outcomes-students-seated-at-table.webp"
+                alt="Students seated at a banquet table during a leadership event"
+                width={960}
+                height={540}
+                className="rounded-lg shadow-sm object-cover"
+              />
+            </div>
+            <div className="w-full max-w-[480px]">
+              <Image
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/outcomes-audience-listening-to-speaker.webp"
+                alt="Audience seated at banquet tables listening to a keynote speaker during a leadership event"
+                width={960}
+                height={540}
+                className="rounded-lg shadow-sm object-cover"
+              />
+            </div>
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          {/* Right: Title + List vertically centered */}
+          <div className="self-center flex flex-col gap-6">
+            <h3 className="text-2xl font-semibold text-gray-900 text-left">
+              Students can participate through:
+            </h3>
             <ul className="list-disc pl-6 space-y-3 text-gray-700 leading-relaxed">
               <li>Attendance at LEAD Series workshops</li>
               <li>Attendance at the annual Student Leadership Conference</li>
@@ -61,27 +83,6 @@ export function LearningOutcomes() {
               <li>Completing online learning modules assigned on Canvas</li>
               <li>Joining student organization(s)</li>
             </ul>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-              <div className="flex justify-center">
-                <Image
-                  src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-students-seated-at-table.webp"
-                  alt="Students seated at a banquet table during a leadership event"
-                  width={1280}
-                  height={720}
-                  className="rounded-lg shadow-sm object-cover"
-                />
-              </div>
-              <div className="flex justify-center">
-                <Image
-                  src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-audience-listening-to-speaker.webp"
-                  alt="Audience seated at banquet tables listening to a keynote speaker during a leadership event"
-                  width={1280}
-                  height={720}
-                  className="rounded-lg shadow-sm object-cover"
-                />
-              </div>
-            </div>
           </div>
         </div>
 
@@ -169,7 +170,7 @@ export function LearningOutcomes() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             <div className="flex justify-center">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-pathways-three-women-holding-award.webp"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/outcomes-pathways-three-women-holding-award.webp"
                 alt="Three women on stage smiling and holding framed leadership awards"
                 width={1280}
                 height={720}
@@ -178,7 +179,7 @@ export function LearningOutcomes() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-outcomes-pathways-group-with-mascot.webp"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/outcomes-pathways-group-with-mascot.webp"
                 alt="Group photo of students posing with Eddie the Golden Eagle mascot indoors"
                 width={1280}
                 height={720}

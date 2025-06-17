@@ -36,7 +36,7 @@ export function Overview() {
           </div>
           <div className="order-1 lg:order-2 relative aspect-[16/9] lg:aspect-auto lg:h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//mobile-overview-event.webp"
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/overview-event.webp"
               alt="Large group of students gathered outdoors under an arch of black, white, and gold balloons"
               fill
               className="object-cover object-center"
