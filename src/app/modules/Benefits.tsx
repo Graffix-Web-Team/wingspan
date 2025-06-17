@@ -71,7 +71,10 @@ export function Benefits() {
               >
                 <div>
                   <div className="w-16 h-16 bg-[#fef9c3] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#fef08a] transition-colors">
-                    <IconComponent className="h-8 w-8 text-accent" />
+                    <IconComponent
+                      className="h-8 w-8 text-accent"
+                      aria-hidden="true"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 h-[60px]">
                     {benefit.title}

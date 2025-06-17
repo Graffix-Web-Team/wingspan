@@ -74,14 +74,17 @@ export function Events() {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-4">
                   <div className="bg-[#fef9c3] rounded-lg p-3">
-                    <Calendar className="h-6 w-6 text-accent" />
+                    <Calendar
+                      className="h-6 w-6 text-accent"
+                      aria-hidden="true"
+                    />
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-gray-900">
                       {event.date}
                     </div>
                     <div className="flex items-center text-gray-600 mt-1">
-                      <Clock className="h-4 w-4 mr-1" />
+                      <Clock className="h-4 w-4 mr-1" aria-hidden="true" />
                       {event.time}
                     </div>
                   </div>
@@ -93,7 +96,7 @@ export function Events() {
               </h3>
 
               <div className="flex items-center text-gray-600 mb-3">
-                <MapPin className="h-4 w-4 mr-1" />
+                <MapPin className="h-4 w-4 mr-1" aria-hidden="true" />
                 {event.location}
               </div>
 

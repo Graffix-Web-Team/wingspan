@@ -109,6 +109,7 @@ export function Promotions() {
                     <td className="px-6 py-6">
                       <div className="flex items-center">
                         <div
+                          aria-hidden="true"
                           className={`w-4 h-4 rounded-full mr-3 ${
                             promotion.level === 'Rising Leader'
                               ? 'bg-amber-600'
@@ -128,7 +129,10 @@ export function Promotions() {
                       <ul className="space-y-2">
                         {promotion.requirements.map((req, reqIndex) => (
                           <li key={reqIndex} className="flex items-start">
-                            <CheckCircle className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                            <CheckCircle
+                              className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                              aria-hidden="true"
+                            />
                             <span className="text-sm text-gray-700">{req}</span>
                           </li>
                         ))}
@@ -138,7 +142,10 @@ export function Promotions() {
                       <ul className="space-y-2">
                         {promotion.benefits.map((benefit, benefitIndex) => (
                           <li key={benefitIndex} className="flex items-start">
-                            <Award className="h-4 w-4 text-yellow-500 mr-2 mt-0.5 flex-shrink-0" />
+                            <Award
+                              className="h-4 w-4 text-yellow-500 mr-2 mt-0.5 flex-shrink-0"
+                              aria-hidden="true"
+                            />
                             <span className="text-sm text-gray-700">
                               {benefit}
                             </span>
@@ -183,7 +190,10 @@ export function Promotions() {
                   <ul className="space-y-2">
                     {promotion.requirements.map((req, reqIndex) => (
                       <li key={reqIndex} className="flex items-start">
-                        <CheckCircle className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                        <CheckCircle
+                          className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                          aria-hidden="true"
+                        />
                         <span className="text-sm text-gray-700">{req}</span>
                       </li>
                     ))}
@@ -197,7 +207,10 @@ export function Promotions() {
                   <ul className="space-y-2">
                     {promotion.benefits.map((benefit, benefitIndex) => (
                       <li key={benefitIndex} className="flex items-start">
-                        <Award className="h-4 w-4 text-yellow-500 mr-2 mt-0.5 flex-shrink-0" />
+                        <Award
+                          className="h-4 w-4 text-yellow-500 mr-2 mt-0.5 flex-shrink-0"
+                          aria-hidden="true"
+                        />
                         <span className="text-sm text-gray-700">{benefit}</span>
                       </li>
                     ))}
