@@ -86,6 +86,12 @@ export default function RootLayout({
       lang="en"
       className={`${interSans.variable} ${dmSerifDisplay.variable} antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="98QibqO4Cewhv2-IBt3kJvc8WBbPeqaTdmiux1xcP9I"
+        />
+      </head>
       <body>
         <GoogleAnalytics />
         <Navigation />
