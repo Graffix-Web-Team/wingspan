@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     'California State University Los Angeles',
     'Associated Students Inc.',
     'wingspan la',
+    'wingspanla',
   ],
   openGraph: {
     title: 'Wingspan Leadership Program',
