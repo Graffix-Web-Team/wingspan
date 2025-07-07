@@ -17,8 +17,8 @@ const promotions = [
       'Rising Leader cord for graduation',
       'Rising Leader medal for graduation',
       'Certificate of Completion',
-      'A Wingspan Leadership Program sweater',
       'Recognition at the annual Golden Eagle Awards',
+      'A Wingspan Leadership Program sweater',
     ],
   },
   {
@@ -38,8 +38,8 @@ const promotions = [
       'Soaring Leader cord for graduation',
       'Soaring Leader medal for graduation',
       'Certificate of Completion',
-      'A Wingspan Leadership Program sweater',
       'Recognition at the annual Golden Eagle Awards',
+      'A Wingspan Leadership Program sweater',
     ],
   },
   {
@@ -59,8 +59,8 @@ const promotions = [
       'Golden Leader cord for graduation',
       'Golden Leader medal for graduation',
       'Certificate of Completion',
-      'A Wingspan Leadership Program sweater',
       'Recognition at the annual Golden Eagle Awards',
+      'A Wingspan Leadership Program sweater',
     ],
   },
 ];

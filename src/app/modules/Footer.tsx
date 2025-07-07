@@ -55,14 +55,6 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="https://www.calstatelausu.org/csi"
-                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
-                >
-                  Center for Student Involvement
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="https://asicalstatela.org/"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
@@ -75,6 +67,14 @@ export function Footer() {
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Cal State LA
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.calstatelausu.org/csi"
+                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
+                >
+                  Center for Student Involvement
                 </Link>
               </li>
             </ul>
