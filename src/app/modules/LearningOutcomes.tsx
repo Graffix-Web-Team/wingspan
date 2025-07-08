@@ -75,13 +75,13 @@ export function LearningOutcomes() {
             <ul className="list-disc pl-6 space-y-3 text-gray-700 leading-relaxed">
               <li>Attendance at LEAD Series workshops</li>
               <li>Attendance at the annual Student Leadership Conference</li>
+              <li>Completing online learning modules assigned on Canvas</li>
+              <li>Joining student organization(s)</li>
+              <li>Participation in service projects/service hours</li>
               <li>
                 Participation in trainings available at Cal State LA
                 (Undocually, VetNet Ally, Mental Health First Aid, etc.)
               </li>
-              <li>Participation in service projects/service hours</li>
-              <li>Completing online learning modules assigned on Canvas</li>
-              <li>Joining student organization(s)</li>
             </ul>
           </div>
         </div>
