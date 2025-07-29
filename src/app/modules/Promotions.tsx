@@ -14,11 +14,9 @@ const promotions = [
       'Approximately 15 hours required for completion',
     ],
     benefits: [
-      'Rising Leader cord for graduation',
-      'Rising Leader medal for graduation',
       'Certificate of Completion',
-      'Recognition at the annual Golden Eagle Awards',
-      'A Wingspan Leadership Program sweater',
+      'Recognition at the Annual Golden Eagle Awards',
+      'A Wingspan Leadership Program T-Shirt',
     ],
   },
   {
@@ -35,11 +33,11 @@ const promotions = [
       'Approximately 25 hours required for completion',
     ],
     benefits: [
-      'Soaring Leader cord for graduation',
-      'Soaring Leader medal for graduation',
       'Certificate of Completion',
-      'Recognition at the annual Golden Eagle Awards',
-      'A Wingspan Leadership Program sweater',
+      'Recognition at the Annual Golden Eagle Awards',
+      'A Wingspan Leadership Program T-Shirt',
+      'Graduation Cord',
+      'Wingspan Hat or Water Bottle',
     ],
   },
   {
@@ -56,11 +54,13 @@ const promotions = [
       'Approximately 40 hours required for completion',
     ],
     benefits: [
-      'Golden Leader cord for graduation',
-      'Golden Leader medal for graduation',
       'Certificate of Completion',
-      'Recognition at the annual Golden Eagle Awards',
-      'A Wingspan Leadership Program sweater',
+      'Recognition at the Annual Golden Eagle Awards',
+      'A Wingspan Leadership Program T-Shirt',
+      'Graduation Cord',
+      'Wingspan Hat or Water Bottle',
+      'Medal of Achievement',
+      'Wingspan Sweater',
     ],
   },
 ];

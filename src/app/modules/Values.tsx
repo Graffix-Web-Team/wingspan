@@ -9,14 +9,26 @@ import {
 } from 'lucide-react';
 
 const supabaseImageUrl =
-  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/values-model.webp';
+  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//scm-ai.webp';
 
 const values = [
   {
-    icon: Globe,
-    title: 'Citizenship',
+    icon: User,
+    title: 'Consciousness of Self',
     description:
-      'Fostering connections to society. Working for positive change on the behalf of others and the community.',
+      'Awareness of the beliefs, values, attitudes and emotions that motivate one to take action.',
+  },
+  {
+    icon: Smile,
+    title: 'Congruence',
+    description:
+      'Thinking, feeling and behaving with consistency, genuineness, authenticity and honesty towards others.',
+  },
+  {
+    icon: Flame,
+    title: 'Commitment',
+    description:
+      'The motivational energy that drives individuals to serve the collective effort; implies passion, intensity and duration.',
   },
   {
     icon: Users,
@@ -31,28 +43,16 @@ const values = [
       'Facilitates the group’s ability to engage in collective analysis of issues at hand and the task to be undertaken.',
   },
   {
-    icon: Flame,
-    title: 'Commitment',
-    description:
-      'The motivational energy that drives individuals to serve the collective effort; implies passion, intensity and duration.',
-  },
-  {
-    icon: Smile,
-    title: 'Congruence',
-    description:
-      'Thinking, feeling and behaving with consistency, genuineness, authenticity and honesty towards others.',
-  },
-  {
     icon: MessageCircle,
     title: 'Controversy with Civility',
     description:
       "Respect for others, a willingness to hear each other's views, and accepting differences in viewpoints.",
   },
   {
-    icon: User,
-    title: 'Consciousness of Self',
+    icon: Globe,
+    title: 'Citizenship',
     description:
-      'Awareness of the beliefs, values, attitudes and emotions that motivate one to take action.',
+      'Fostering connections to society. Working for positive change on the behalf of others and the community.',
   },
 ];
 
@@ -65,12 +65,22 @@ export function Values() {
             The Seven &quot;C&quot;s of the Social Change Model
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Grounded in the Social Change Model of Leadership (SCM), the
-            Wingspan Leadership Program incorporates leadership development,
-            educational awareness, and civic engagement. Social responsibility
-            and change for the common good are achieved through the development
-            of 7 core values targeted at enhancing students&apos; levels of
-            self–awareness and ability to work with others.
+            Grounded in the{' '}
+            <a
+              href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8990fce558a5c79f60f1ba84e15233257aa2b326"
+              aria-label="opens PDF article for the social change model in new tab"
+              className="underline hover:no-underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Social Change Model of Leadership (SCM)
+            </a>
+            , the Wingspan Leadership Program incorporates leadership
+            development, educational awareness, and civic engagement. Social
+            responsibility and change for the common good are achieved through
+            the development of 7 core values targeted at enhancing
+            students&apos; levels of self&ndash;awareness and ability to work
+            with others.
           </p>
         </div>
 
