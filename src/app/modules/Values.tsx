@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 const supabaseImageUrl =
-  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/values-model.webp';
+  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan//scm-ai.webp';
 
 const values = [
   {
@@ -65,12 +65,22 @@ export function Values() {
             The Seven &quot;C&quot;s of the Social Change Model
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Grounded in the Social Change Model of Leadership (SCM), the
-            Wingspan Leadership Program incorporates leadership development,
-            educational awareness, and civic engagement. Social responsibility
-            and change for the common good are achieved through the development
-            of 7 core values targeted at enhancing students&apos; levels of
-            self–awareness and ability to work with others.
+            Grounded in the{' '}
+            <a
+              href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8990fce558a5c79f60f1ba84e15233257aa2b326"
+              aria-label="opens PDF article for the social change model in new tab"
+              className="underline hover:no-underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Social Change Model of Leadership (SCM)
+            </a>
+            , the Wingspan Leadership Program incorporates leadership
+            development, educational awareness, and civic engagement. Social
+            responsibility and change for the common good are achieved through
+            the development of 7 core values targeted at enhancing
+            students&apos; levels of self&ndash;awareness and ability to work
+            with others.
           </p>
         </div>
 

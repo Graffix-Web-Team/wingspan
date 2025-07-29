@@ -19,7 +19,7 @@ export function Overview() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-              Cal State LA Wants You to Lead
+              Cal State LA Wants You to Lead!
             </h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
               The Wingspan Leadership Program strives to enhance our
