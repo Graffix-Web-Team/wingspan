@@ -13,10 +13,22 @@ const supabaseImageUrl =
 
 const values = [
   {
-    icon: Globe,
-    title: 'Citizenship',
+    icon: User,
+    title: 'Consciousness of Self',
     description:
-      'Fostering connections to society. Working for positive change on the behalf of others and the community.',
+      'Awareness of the beliefs, values, attitudes and emotions that motivate one to take action.',
+  },
+  {
+    icon: Smile,
+    title: 'Congruence',
+    description:
+      'Thinking, feeling and behaving with consistency, genuineness, authenticity and honesty towards others.',
+  },
+  {
+    icon: Flame,
+    title: 'Commitment',
+    description:
+      'The motivational energy that drives individuals to serve the collective effort; implies passion, intensity and duration.',
   },
   {
     icon: Users,
@@ -31,28 +43,16 @@ const values = [
       'Facilitates the group’s ability to engage in collective analysis of issues at hand and the task to be undertaken.',
   },
   {
-    icon: Flame,
-    title: 'Commitment',
-    description:
-      'The motivational energy that drives individuals to serve the collective effort; implies passion, intensity and duration.',
-  },
-  {
-    icon: Smile,
-    title: 'Congruence',
-    description:
-      'Thinking, feeling and behaving with consistency, genuineness, authenticity and honesty towards others.',
-  },
-  {
     icon: MessageCircle,
     title: 'Controversy with Civility',
     description:
       "Respect for others, a willingness to hear each other's views, and accepting differences in viewpoints.",
   },
   {
-    icon: User,
-    title: 'Consciousness of Self',
+    icon: Globe,
+    title: 'Citizenship',
     description:
-      'Awareness of the beliefs, values, attitudes and emotions that motivate one to take action.',
+      'Fostering connections to society. Working for positive change on the behalf of others and the community.',
   },
 ];
 

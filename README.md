@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+## Prerequisites
+- Node.js (see `.nvmrc` for required veresion)
+- npm
+- nvm (recommended for version management)
+
 ## Clone the repository
 
 ```
@@ -12,6 +17,12 @@ git clone https://github.com/Graffix-Web-Team/wingspan.git
 
 ```
 npm install
+```
+
+## Switch to correct version of node 
+
+```
+nvm use
 ```
 
 First, run the development server:
