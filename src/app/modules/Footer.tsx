@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import {
   Mail,
   Phone,
@@ -18,9 +18,8 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="relative w-[250px] h-[100px]">
               <Image
-                src="https://www.calstatelausu.org/_next/image?url=%2Flogos%2Fcalstatela.png&w=640&q=75"
+                src="https://www.calstatelausu.org/url=%2Flogos%2Fcalstatela.png&w=640&q=75"
                 alt=""
-                fill
                 className="object-contain"
               />
             </div>
