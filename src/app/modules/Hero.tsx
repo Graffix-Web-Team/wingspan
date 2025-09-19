@@ -31,7 +31,7 @@ export function Hero() {
                 size="lg"
                 className="bg-primary hover:bg-[#00687a] text-white px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
               >
-                <Link href="https://forms.office.com/r/fpLZipPcJK">
+                <Link href="https://calstatela.instructure.com/enroll/W8BRXJ">
                   <span className="flex items-center">
                     Sign Up
                     <ArrowRight className="ml-2 h-5 w-5" />
