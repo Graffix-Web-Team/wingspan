@@ -2,6 +2,20 @@ import { Calendar, Clock, MapPin } from 'lucide-react';
 import events from '@/data/events.json';
 
 export function Events() {
+  // Filter out past events
+  const currentDate = new Date();
+  const upcomingEvents = events.filter((event) => {
+    // Parse the event date (assuming current year)
+    const eventDate = new Date(`${event.date}, ${currentDate.getFullYear()}`);
+
+    // If the parsed date is in the past, check if it should be next year
+    if (eventDate < currentDate) {
+      eventDate.setFullYear(currentDate.getFullYear() + 1);
+    }
+
+    return eventDate >= currentDate;
+  });
+
   return (
     <section id="events" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +30,7 @@ export function Events() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {events.map((event, index) => (
+          {upcomingEvents.map((event, index) => (
             <div
               key={index}
               className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
