@@ -18,7 +18,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="relative w-[250px] h-[100px]">
               <Image
-                src="https://www.calstatelausu.org/url=%2Flogos%2Fcalstatela.png&w=640&q=75"
+                src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/pages/about/about/calstatela-logo.webp"
                 alt=""
                 className="object-contain"
               />
