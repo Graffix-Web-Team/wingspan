@@ -4,6 +4,7 @@ import './globals.css';
 import { Footer, Navigation } from './modules';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const dmSerifDisplay = DM_Serif_Display({
   subsets: ['latin'],
@@ -104,6 +105,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
