@@ -23,7 +23,7 @@ export function Events() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-serif">
             Upcoming Events
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
             Take part in thoughtful events that support your growth, celebrate
             your identity, and empower you to lead with confidence.
           </p>

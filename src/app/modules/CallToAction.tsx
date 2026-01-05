@@ -7,7 +7,7 @@ export function CallToAction() {
   return (
     <section
       id="get-involved"
-      className="py-40 bg-gradient-to-b from-white to-primary"
+      className="py-40 bg-linear-to-b from-white to-primary"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-body-text mb-6">
@@ -47,7 +47,7 @@ export function CallToAction() {
           </Button>
           {/* </form> */}
 
-          <p className="text-sm text-gray-500 mt-4">
+          <p className="text-sm text-gray-500 mt-4 text-left">
             By adding your contact info on this form, you will receive further
             information about the program and next steps for signing up! You may
             join at any point in the year.

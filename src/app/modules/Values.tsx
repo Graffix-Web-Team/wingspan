@@ -64,7 +64,7 @@ export function Values() {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             The Seven &quot;C&quot;s of the Social Change Model
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
             Grounded in the{' '}
             <a
               href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8990fce558a5c79f60f1ba84e15233257aa2b326"

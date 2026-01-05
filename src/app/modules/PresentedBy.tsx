@@ -28,7 +28,7 @@ export function PresentedBy() {
           <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-3 font-serif">
             Presented in Partnership With
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto text-left">
             The Wingspan Leadership Program is put together by the collaborative
             efforts of on-campus organizations dedicated to student development.
           </p>

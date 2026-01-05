@@ -73,7 +73,7 @@ export function Promotions() {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Leadership Milestones
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
             Students will participate in various training events to achieve the
             designations of Rising Leader, Soaring Leader, and Golden Leader.
             Throughout the program, students will have opportunities to connect

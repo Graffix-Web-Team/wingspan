@@ -54,7 +54,7 @@ export function Benefits() {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             What You&apos;ll Gain
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
             Participation provides you with valuable skills, experiences, and
             opportunities that will benefit you throughout your academic and
             professional careers.
