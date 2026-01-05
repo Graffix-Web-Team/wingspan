@@ -3,6 +3,7 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from '@/components/ui/link';
 import { Button } from '@/components/ui/button';
+import Image from '@/components/ui/image';
 
 export function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -16,14 +17,22 @@ export function Hero() {
     <section id="mission" className="pt-16 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-              Wingspan
-              <span className="text-primary block font-serif">
-                Leadership Program
-              </span>
-            </h1>
-            <h1 className="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed">
+          <div className="max-w-4xl mx-auto py-40 md:py-0">
+            <div className="md:py-10">
+              <Image
+                alt={'Wingspan Leadership Program'}
+                src={
+                  'https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Wingspan-Desktop.svg'
+                }
+                className="hidden md:block"
+              />
+            </div>
+            <Image
+              alt="Wingspan Leadership Program"
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Stacked_teal.svg"
+              className="block md:hidden max-w-md mx-auto"
+            />
+            <h1 className="text-xl pt-10 md:pt-0 sm:text-2xl text-gray-600 mb-8 leading-relaxed">
               Expand Your Leadership Reach
             </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

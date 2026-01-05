@@ -33,13 +33,13 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             {/* <img src="/wingspan-logo.svg" alt="" className="h-8 w-auto" /> */}
             <Image
-              src="/logos/wingspan-logo.png"
+              src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Monogram_only_teal.svg"
               alt=""
-              width={150}
-              height={60}
+              width={110}
+              height={110}
             />
           </div>
 
