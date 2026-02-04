@@ -1,72 +1,59 @@
 [
-    {
-        "date": "Oct 6",
-        "time": "3:00 PM to 4:30 PM",
-        "title": "Rise N' Grind",
-        "location": "Salazar Hall 260",
-        "description": "Come join us as we equip you with tools for professional development. We'll be sharing tips about attaining internships, using Handshake for jobs, practice elevator pitches and even get your professional headshot taken. Ready to GRIND?"
-    },
-    {
-        "date": "Oct 9",
-        "time": "12:00 PM to 1:30 PM",
-        "title": "Flop Era to Glow Up: Turning Failure into Fuel",
-        "location": "Alhambra Room",
-        "description": "Failure happens, and that's okay! This LEAD Series workshop creates space to reflect on setbacks without shame, reframe what it means to \"fail,\" and learn how to bounce back stronger. Through honest conversations and practical strategies, you'll explore how to grow from challenges and build resilience."
-    },
-    {
-        "date": "Oct 13",
-        "time": "8:00 AM to 10:00 AM",
-        "title": "Special Announcement Event",
-        "location": "HC Conference Room (KHD1053)",
-        "description": "Details to be announced - stay tuned!"
-    },
-    {
-        "date": "Oct 23",
-        "time": "12:00 PM to 1:30 PM",
-        "title": "Say It With Your Chest: Speaking Up & Standing Strong",
-        "location": "Alhambra Room",
-        "description": "Finding your voice and speaking up can be challenging, but it is key to advocating for yourself and others. You'll learn practical communication skills and ways to overcome fear or hesitation so you can say what matters with confidence."
-    },
-    {
-        "date": "Oct 30",
-        "time": "12:00 PM to 1:00 PM",
-        "title": "Lunch & Learn: Wangari Maathai (2004)",
-        "location": "HC Conference Room (KHD1053)",
-        "description": "Kenyan environmentalist and political activist who founded the Green Belt Movement and was the first African woman to win the Nobel Peace Prize."
-    },
-    {
-        "date": "Nov 3",
-        "time": "12:00 PM to 1:00 PM",
-        "title": "Lunch & Learn: Dolores Huerta",
-        "location": "HC Conference Room (KHD1053)",
-        "description": "American labor leader and civil rights activist who co-founded the United Farm Workers."
-    },
-    {
-        "date": "Nov 6",
-        "time": "12:00 PM to 1:30 PM",
-        "title": "End the Beef: How to Disagree Without Disrespect",
-        "location": "Alhambra Room",
-        "description": "This LEAD Series workshop teaches you how to manage disagreements respectfully. You'll build emotional intelligence and active listening skills to turn conflict into positive collaboration."
-    },
-    {
-        "date": "Nov 17",
-        "time": "12:00 PM to 1:00 PM",
-        "title": "Lunch & Learn: Martin Luther King",
-        "location": "HC Conference Room (KHD1053)",
-        "description": "Civil rights leader and advocate for nonviolent resistance, known for his role in the American civil rights movement."
-    },
-    {
-        "date": "Nov 20",
-        "time": "12:00 PM to 1:30 PM",
-        "title": "Main Character Energy: A Workshop on Self-Love",
-        "location": "Alhambra Room",
-        "description": "This LEAD Series workshop is all about stepping into your main character energy by embracing self-love and self-care. You'll explore ways to build confidence, set boundaries, and nurture a positive relationship with yourself."
-    },
-    {
-        "date": "Dec 4",
-        "time": "12:00 PM to 1:00 PM",
-        "title": "Lunch & Learn: Desmond Tutu (1984)",
-        "location": "HC Conference Room (KHD1053)",
-        "description": "South African Anglican bishop and human rights activist who was a key figure in the fight against apartheid."
+  {
+    "date": "Feb 4",
+    "time": "12:00 PM",
+    "title": "Root of the Matter: Feeling Myself",
+    "location": "University-Student Union, San Gabriel Room",
+    "description": "Join us as we have conversations on exploring your identity and what it means to really be yourself. We’ll explore our roots and cultivate community through open dialogue, fun activities, and food. All are welcome!"
+  },
+  {
+    "date": "Feb 5",
+    "time": "12:00 PM",
+    "title": "LEAD Series – Your Life, Your Tempo: Time and Energy Management",
+    "location": "University-Student Union, San Gabriel Room",
+    "description": "Ready to take control of your rhythm? In this upbeat workshop, you’ll learn how to manage your time and your energy so you can work smarter, not harder. Through interactive activities and real-life strategies, you’ll discover how to set priorities, avoid burnout, and create habits that actually fit your lifestyle. Walk away feeling more balanced, focused, and empowered to lead your life at your own tempo."
+  },
+  {
+    "date": "Feb 3, 10, 17, 24",
+    "time": "1:40 PM to 2:55 PM",
+    "title": "U-Empower Workshop: The Love Lab",
+    "location": "Student Health Center, Rm 210",
+    "description": "A discussion series on healthy relationships, boundaries, communication, and respect."
+  },
+  {
+    "date": "Feb 10",
+    "time": "3:30 PM to 6:30 PM",
+    "title": "The Career Plug",
+    "location": "University-Student Union Theater",
+    "description": "This event highlights the many non-traditional and high-demand pathways available today, including apprenticeships, trades, certifications, and workforce development programs that lead to real, stable, well-paid careers."
+  },
+  {
+    "date": "Feb 12",
+    "time": "-",
+    "title": "Ask the Dean",
+    "location": "-",
+    "description": "Share your experiences as a Cal State LA student, the resources you find most helpful, and how our Dean of Students and the University can best support you. Submit the Ask the Dean form by February 12, 2026, for a chance to win raffle prizes.",
+    "link": {
+      "label": "Ask the Dean Form",
+      "url": "https://forms.office.com/r/20J1nMK5F9"
     }
+  },
+  {
+    "date": "Feb 19",
+    "time": "12:00 PM",
+    "title": "LEAD Series – Inclusive Leaders, Rise! Being Culturally Responsive",
+    "location": "University-Student Union, Alhambra Room",
+    "description": "Being a leader today means creating spaces where everyone feels seen, valued, and included. In this workshop, students will explore what it means to be culturally responsive and how our identities show up in the work we do. Through interactive activities and real examples, participants will learn practical ways to understand diverse perspectives, avoid cultural assumptions, and uplift the voices of others."
+  },
+  {
+    "date": "Feb 25",
+    "time": "1:30 PM to 2:55 PM",
+    "title": "Beyond the Mirror (Body Acceptance Week)",
+    "location": "University-Student Union, Los Angeles Rooms",
+    "description": "Join us for a Body Acceptance Week event, Beyond the Mirror: Jessica Wilson on Body Acceptance and Black Joy.",
+    "link": {
+      "label": "Sign Up",
+      "url": "https://forms.office.com/pages/responsepage.aspx?id=AiCKzo9EWE-Csdhvc-Ov3cehmgjufgBHptZXwZQLpcRUNFRMTzdJSTVTR0lTQzMwQldCTUxTUlg3VC4u&route=shorturl"
+    }
+  }
 ]
