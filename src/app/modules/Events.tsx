@@ -1,5 +1,6 @@
-import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
 import events from '@/data/events.json';
+import { Link } from '@/components/ui/link';
 
 export function Events() {
   // Filter out past events
@@ -67,6 +68,20 @@ export function Events() {
               <p className="text-gray-600 leading-relaxed">
                 {event.description}
               </p>
+
+              {event.link && (
+                <div className="flex items-center mt-4 gap-4">
+                  <Link
+                    href={event.link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-black font-medium underline hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                  >
+                    {event.link.label}
+                    <ExternalLink className="h-4 w-4 ml-1" aria-hidden="true" />
+                  </Link>
+                </div>
+              )}
             </div>
           ))}
         </div>
