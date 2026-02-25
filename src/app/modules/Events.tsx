@@ -2,20 +2,30 @@ import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
 import events from '@/data/events.json';
 import { Link } from '@/components/ui/link';
 
+export type Event = {
+  date: string;
+  time: string;
+  title: string;
+  location: string;
+  description: string;
+  link?: {
+    label: string;
+    url: string;
+  };
+};
+
 export function Events() {
-  // Filter out past events
-  const currentDate = new Date();
-  const upcomingEvents = events.filter((event) => {
-    // Parse the event date (assuming current year)
-    const eventDate = new Date(`${event.date}, ${currentDate.getFullYear()}`);
+  const filterPastEvents = (events: Event[]): Event[] => {
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-    // If the parsed date is in the past, check if it should be next year
-    if (eventDate < currentDate) {
-      eventDate.setFullYear(currentDate.getFullYear() + 1);
-    }
-
-    return eventDate >= currentDate;
-  });
+    return events.filter((event) => {
+      const currentYear = now.getFullYear();
+      const eventDate = new Date(`${event.date}, ${currentYear}`);
+      return eventDate >= today;
+    });
+  };
+  const filteredEvents = filterPastEvents(events);
 
   return (
     <section id="events" className="py-20 bg-gray-50">
@@ -31,7 +41,7 @@ export function Events() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {upcomingEvents.map((event, index) => (
+          {filteredEvents.map((event, index) => (
             <div
               key={index}
               className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
