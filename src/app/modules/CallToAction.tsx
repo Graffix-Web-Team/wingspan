@@ -33,16 +33,17 @@ export function CallToAction() {
               required
             /> */}
           <Button
-            // type="submit"
-            className="space-y-4 bg-accent hover:bg-primary text-body-text py-3 transition-all duration-300 hover:scale-105 hover:text-light-background"
+            asChild
+            className="min-h-12 w-full bg-accent py-3 text-body-text transition-all duration-300 hover:scale-105 hover:bg-primary hover:text-light-background"
           >
             <Link
               href="https://forms.office.com/r/fpLZipPcJK"
               target="_blank"
-              className="w-full flex items-center justify-center"
+              rel="noopener noreferrer"
+              className="inline-flex w-full items-center justify-center gap-2 px-6"
             >
               Join Wingspan LA
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <ArrowRight className="h-5 w-5" />
             </Link>
           </Button>
           {/* </form> */}

@@ -1,5 +1,5 @@
 'use client';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 import React, {
   forwardRef,
   useEffect,
@@ -9,12 +9,12 @@ import React, {
 } from 'react';
 
 type Radius = '12px' | '8px';
+type FetchPriority = 'high' | 'low' | 'auto';
 
-export interface ImageProps
-  extends Omit<
-    ImgHTMLAttributes<HTMLImageElement>,
-    'src' | 'alt' | 'sizes' | 'srcSet' | 'onError' | 'loading'
-  > {
+export interface ImageProps extends Omit<
+  ImgHTMLAttributes<HTMLImageElement>,
+  'src' | 'alt' | 'sizes' | 'srcSet' | 'onError' | 'loading'
+> {
   alt: string;
   src: string;
   placeholder?: string;
@@ -24,6 +24,7 @@ export interface ImageProps
   borderRadius?: Radius;
   round?: boolean;
   lazy?: boolean;
+  fetchPriority?: FetchPriority;
   className?: string;
   style?: React.CSSProperties;
 }
@@ -39,6 +40,7 @@ const Image = forwardRef<HTMLImageElement, ImageProps>((props, ref) => {
     borderRadius,
     round,
     lazy = false,
+    fetchPriority,
     className,
     style,
     ...rest
@@ -71,6 +73,7 @@ const Image = forwardRef<HTMLImageElement, ImageProps>((props, ref) => {
       srcSet={srcSet}
       onError={handleError}
       loading={lazy ? 'lazy' : 'eager'}
+      fetchPriority={fetchPriority}
       decoding="async"
       className={[roundedClass, className].filter(Boolean).join(' ')}
       style={style}
