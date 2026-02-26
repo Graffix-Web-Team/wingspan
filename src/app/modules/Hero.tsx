@@ -30,27 +30,34 @@ export function Hero() {
             <Image
               alt="Wingspan Leadership Program"
               src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Stacked_teal.svg"
-              className="block md:hidden max-w-md mx-auto"
+              width={400}
+              height={200}
+              fetchPriority="high"
+              className="block md:hidden max-w-md mx-auto h-auto"
+              sizes="(max-width: 768px) 100vw, 400px"
             />
             <h1 className="text-xl pt-10 md:pt-0 sm:text-2xl text-gray-600 mb-8 leading-relaxed">
               Expand Your Leadership Reach
             </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
+                asChild
                 size="lg"
-                className="bg-primary hover:bg-[#00687a] text-white px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
+                className="w-full sm:w-auto bg-primary hover:bg-[#00687a] text-white px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
               >
-                <Link href="https://calstatela.instructure.com/enroll/W8BRXJ">
-                  <span className="flex items-center">
-                    Sign Up
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </span>
+                <Link
+                  href="https://calstatela.instructure.com/enroll/W8BRXJ"
+                  className="inline-flex items-center"
+                >
+                  Sign Up
+                  <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
+
               <Button
                 size="lg"
                 variant="outline"
-                className="border-gray-300 bg-accent text-body-text px-8 py-4 text-lg transition-all duration-300 hover:bg-[#e1ac00] hover:scale-105"
+                className="w-full sm:w-auto border-gray-300 bg-accent text-body-text px-8 py-4 text-lg transition-all duration-300 hover:bg-[#e1ac00] hover:scale-105"
                 onClick={() => scrollToSection('overview')}
               >
                 Learn More
