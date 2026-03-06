@@ -1,80 +1,90 @@
 [
   {
-    "date": "Feb 4",
-    "time": "12:00 PM",
-    "title": "Root of the Matter: Feeling Myself",
-    "location": "University-Student Union, San Gabriel Room",
-    "description": "Join us as we have conversations on exploring your identity and what it means to really be yourself. We’ll explore our roots and cultivate community through open dialogue, fun activities, and food. All are welcome!"
+    "date": "Mar 5",
+    "time": "12:00 PM - 1:30 PM",
+    "title": "LEAD Series - Welcoming Starts with You: Facing Our Biases",
+    "location": "U-SU: Alhambra Room",
+    "description": "Ready to create spaces where everyone feels included? This workshop helps you identify unconscious biases, challenge assumptions, and practice inclusive behaviors in everyday interactions. Through interactive activities and real-life examples, you’ll gain tools to foster understanding, respect, and belonging. Step in, speak up, and lead the way in making your community welcome for all!"
   },
   {
-    "date": "Feb 5",
-    "time": "12:00 PM",
-    "title": "LEAD Series – Your Life, Your Tempo: Time and Energy Management",
-    "location": "University-Student Union, San Gabriel Room",
-    "description": "Ready to take control of your rhythm? In this upbeat workshop, you’ll learn how to manage your time and your energy so you can work smarter, not harder. Through interactive activities and real-life strategies, you’ll discover how to set priorities, avoid burnout, and create habits that actually fit your lifestyle. Walk away feeling more balanced, focused, and empowered to lead your life at your own tempo."
+    "date": "Mar 5",
+    "time": "12:00 PM - 1:30 PM",
+    "title": "Platicas con Profes: The Profes You Didn’t Know You Had",
+    "location": "U-SU: Los Angeles Rooms AB",
+    "description": "Join our plática with Profes Letty Terrones, Azalea Camacho, and Katie Perry as we explore the role of librarians as professors and faculty on campus and what that means for students. There will be free food for all who attend!"
   },
   {
-    "date": "Feb 3",
-    "time": "1:40 PM to 2:55 PM",
-    "title": "U-Empower Workshop: The Love Lab",
-    "location": "Student Health Center, Rm 210",
-    "description": "A discussion series on healthy relationships, boundaries, communication, and respect."
+    "date": "Mar 5",
+    "time": "2:00 PM - 3:30 PM",
+    "title": "Highlighting DRC Students & Community Voices",
+    "location": "U-SU: San Gabriel Room",
+    "description": "This panel is organized by the Dreamers Resource Center to center the lived experiences and perspectives of students and Cal State LA alumni within the DRC community. This event is designed to foster thoughtful discussion, elevate student voices, and create space for honest conversation about challenges, successes, and growth opportunities"
   },
   {
-    "date": "Feb 10",
-    "time": "1:40 PM to 2:55 PM",
-    "title": "U-Empower Workshop: The Love Lab",
-    "location": "Student Health Center, Rm 210",
-    "description": "A discussion series on healthy relationships, boundaries, communication, and respect."
+    "date": "Mar 10",
+    "time": "11:00 AM - 12:00 PM",
+    "title": "Let’s Talk about What is on Your Mind",
+    "location": "University Academic Advisement Center, Library-Palmer Wing 1040A",
+    "description": "The purpose of this group is to have a brief, informal, and confidential conversation with students who are coming to the University Advisement Center. It is to provide support, assist with problem solving, inform students regarding services that are offered at the Counseling, and Psychological Services on campus, and facilitate referral to other resources."
   },
   {
-    "date": "Feb 17",
-    "time": "1:40 PM to 2:55 PM",
-    "title": "U-Empower Workshop: The Love Lab",
-    "location": "Student Health Center, Rm 210",
-    "description": "A discussion series on healthy relationships, boundaries, communication, and respect."
+    "date": "Mar 10",
+    "time": "2:00 PM - 4:00 PM",
+    "title": "Lets Talk About It: Celebrating Black Women in History",
+    "location": "U-SU: Pan African Student Resource Center",
+    "description": "Celebrating Black Women in History will highlight the accomplishments of Black women across areas like entrepreneurship, leadership, financial empowerment, and community impact. By looking at the paths they created and the barriers they broke, we’ll reflect on the lessons their stories offer about resilience, innovation, and building lasting change. Join us as we celebrate the legacy and influence of Black women who continue to shape the future."
   },
   {
-    "date": "Feb 24",
-    "time": "1:40 PM to 2:55 PM",
-    "title": "U-Empower Workshop: The Love Lab",
-    "location": "Student Health Center, Rm 210",
-    "description": "A discussion series on healthy relationships, boundaries, communication, and respect."
-  },
-  {
-    "date": "Feb 10",
-    "time": "3:30 PM to 6:30 PM",
-    "title": "The Career Plug",
-    "location": "University-Student Union Theater",
-    "description": "This event highlights the many non-traditional and high-demand pathways available today, including apprenticeships, trades, certifications, and workforce development programs that lead to real, stable, well-paid careers."
-  },
-  {
-    "date": "Feb 12",
-    "time": "-",
-    "title": "Ask the Dean",
-    "location": "-",
-    "description": "Share your experiences as a Cal State LA student, the resources you find most helpful, and how our Dean of Students and the University can best support you. Submit the Ask the Dean form by February 12, 2026, for a chance to win raffle prizes.",
+    "date": "Mar 10",
+    "time": "3:00 PM - 4:00 PM",
+    "title": "Mind Hacks for When You’re Doing the Most: A 4-Week Reset Series for When Life’s a Lot",
+    "location": "Online via Zoom",
+    "description": "To support students in understanding how stress shows up in their lives, while exploring practical coping tools they can use to handle everyday pressures more effectively",
     "link": {
-      "label": "Ask the Dean Form",
-      "url": "https://forms.office.com/r/20J1nMK5F9"
+      "label": "Zoom Meeting",
+      "url": "https://us02web.zoom.us/j/4191087796"
     }
   },
   {
-    "date": "Feb 19",
-    "time": "12:00 PM",
-    "title": "LEAD Series – Inclusive Leaders, Rise! Being Culturally Responsive",
-    "location": "University-Student Union, Alhambra Room",
-    "description": "Being a leader today means creating spaces where everyone feels seen, valued, and included. In this workshop, students will explore what it means to be culturally responsive and how our identities show up in the work we do. Through interactive activities and real examples, participants will learn practical ways to understand diverse perspectives, avoid cultural assumptions, and uplift the voices of others."
+    "date": "Mar 11",
+    "time": "3:00 PM - 6:00 PM",
+    "title": "Our People Shall Live! Women Against Empires: International Women’s Day Celebration",
+    "location": "U-SU: San Gabriel Room",
+    "description": "Join the Gender and Sexuality Resource Center as we celebrate International Working Women’s Day. Through Poetry, Spoken Word, Music, and more, we explore how women have been at the forefront of anti-imperialist resistance."
   },
   {
-    "date": "Feb 25",
-    "time": "1:30 PM to 2:55 PM",
-    "title": "Beyond the Mirror (Body Acceptance Week)",
-    "location": "University-Student Union, Los Angeles Rooms",
-    "description": "Join us for a Body Acceptance Week event, Beyond the Mirror: Jessica Wilson on Body Acceptance and Black Joy.",
-    "link": {
-      "label": "Sign Up",
-      "url": "https://forms.office.com/pages/responsepage.aspx?id=AiCKzo9EWE-Csdhvc-Ov3cehmgjufgBHptZXwZQLpcRUNFRMTzdJSTVTR0lTQzMwQldCTUxTUlg3VC4u&route=shorturl"
-    }
+    "date": "Mar 12",
+    "time": "11:00 AM - 1:00 PM",
+    "title": "Floreciendo Juntas",
+    "location": "U-SU: Los Angeles Rooms",
+    "description": "The Chicanx/Latinx Student Resource Center and Associated Students, Inc. will be hosting a brunch and panel event to celebrate Latina identities during Womxn’s Herstory Month. This event will consist of a keynote address from a Latina-identifying individual and a panel of womxn from the Cal State LA and surrounding community. Free brunch will be provided for all students who participate, there will be photo opportunities, and time to mingle and network."
+  },
+  {
+    "date": "Mar 17",
+    "time": "11:00 AM - 12:30 PM",
+    "title": "Applying for Medi-Cal Workshop for Cal State LA Students",
+    "location": "Student Health Center: 210 Training Room",
+    "description": "In this workshop you will learn how to create a BenefitsCal Account, how to start your Medi-Cal application, and how to upload necessary documents to complete your application. Please bring the following items to the workshop: your laptop, proof of identity, proof of income, and proof of CA residency."
+  },
+  {
+    "date": "Mar 18",
+    "time": "1:40 PM - 2:55 PM",
+    "title": "Mind, Body, & Black Brilliance: Black Healthcare Professionals in Conversation",
+    "location": "U-SU: Los Angeles Rooms",
+    "description": "Join us for an inspiring panel highlighting Black professionals in the healthcare field as they share their career journeys, challenges, and successes. This event aims to empower students interested in health-related careers by offering real-world insights, representation, and opportunities for connection. Presented in honor of Black History Month, this event celebrates excellence, resilience, and the vital contributions of Black individuals in the health professions."
+  },
+  {
+    "date": "Mar 19",
+    "time": "12:00 PM - 1:30 PM",
+    "title": "LEAD Series - Leading with Clarity and Care: Practicing Emotional Intelligence",
+    "location": "U-SU: Alhambra Room",
+    "description": "Want to strengthen your leadership skills? This workshop helps you tune into your emotions, read the room like a pro, and respond with clarity and care. Through engaging activities and relatable scenarios, you’ll learn how to manage stress, communicate with impact, and build stronger relationships."
+  },
+  {
+    "date": "Mar 23",
+    "time": "1:30 PM - 2:55 PM",
+    "title": "Body Acceptance Week Beyond the Mirror: Jessica Wilson on Body Acceptance & Black Joy",
+    "location": "U-SU Los Angeles Rooms",
+    "description": "Jessica Wilson is a podcaster, author, and renowned dietitian. Join Jessica for powerful talk on body acceptance, healing, and Black joy beyond appearance."
   }
 ]
