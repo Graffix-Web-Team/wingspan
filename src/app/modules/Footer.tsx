@@ -55,6 +55,7 @@ export function Footer() {
               <li>
                 <Link
                   href="https://asicalstatela.org/"
+                  aria-label="Associated Students, Inc. (opens in a new tab)"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Associated Students, Inc.
@@ -63,6 +64,7 @@ export function Footer() {
               <li>
                 <Link
                   href="https://www.calstatela.edu/"
+                  aria-label="Cal State LA (opens in a new tab)"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Cal State LA
@@ -71,9 +73,19 @@ export function Footer() {
               <li>
                 <Link
                   href="https://www.calstatelausu.org/csi"
+                  aria-label="Center for Student Involvement (opens in a new tab)"
                   className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
                 >
                   Center for Student Involvement
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.calstatelausu.org/"
+                  aria-label="University-Student Union (opens in a new tab)"
+                  className="text-gray-300 underline underline-offset-1 hover:text-white hover:no-underline transition-colors"
+                >
+                  University-Student Union
                 </Link>
               </li>
             </ul>
