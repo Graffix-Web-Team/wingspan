@@ -1,7 +1,7 @@
 import {
   Benefits,
   CallToAction,
-  // Events,
+  Events,
   Hero,
   LearningOutcomes,
   Overview,
@@ -20,7 +20,7 @@ export default function Home() {
         <Overview />
         <Benefits />
         <LearningOutcomes />
-        {/* <Events /> */}
+        <Events />
         <Values />
         <Promotions />
         <PresentedBy />
