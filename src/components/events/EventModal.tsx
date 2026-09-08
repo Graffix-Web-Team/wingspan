@@ -30,6 +30,19 @@ export function EventModal({ event, onClose }: EventModalProps) {
     if (!event && dialog.open) dialog.close();
   }, [event]);
 
+  // `showModal()` makes the page behind inert to clicks but not to scrolling,
+  // so the background still slides around under an open modal.
+  useEffect(() => {
+    if (!event) return;
+
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [event]);
+
   return (
     <dialog
       ref={dialogRef}
