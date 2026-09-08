@@ -1,100 +1,48 @@
-import { Calendar, Clock, MapPin, ExternalLink } from 'lucide-react';
-import events from '@/data/events.json';
-import { Link } from '@/components/ui/link';
+import { fetchCampusGroupsEvents } from '@/lib/campus-groups';
+import { selectWingspanEvents, type WingspanEvent } from '@/lib/events';
+import { EventsGrid } from '@/components/events/EventsGrid';
 
-export type Event = {
-  date: string;
-  time: string;
-  title: string;
-  location: string;
-  description: string;
-  link?: {
-    label: string;
-    url: string;
-  };
-};
+export async function Events() {
+  let events: WingspanEvent[] = [];
 
-export function Events() {
-  const filterPastEvents = (events: Event[]): Event[] => {
-    const now = new Date();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  try {
+    /*
+     * Filter by topic name even though the feed URL already carries
+     * `topic_id`. If CampusGroups ever changes or drops that param the request
+     * keeps returning HTTP 200 — with 320 unrelated events from 22
+     * departments. This second pass is the only thing standing between a
+     * silent upstream change and the Student Health Center's calendar
+     * appearing on the Wingspan site.
+     */
+    events = selectWingspanEvents(await fetchCampusGroupsEvents());
+  } catch (error) {
+    // Keep the rest of the page up; the section below renders nothing.
+    console.error('Could not load Wingspan events from CampusGroups', error);
+  }
 
-    return events.filter((event) => {
-      const currentYear = now.getFullYear();
-      const eventDate = new Date(`${event.date}, ${currentYear}`);
-      return eventDate >= today;
-    });
-  };
-  const filteredEvents = filterPastEvents(events);
+  /*
+   * Nothing tagged, or the feed is unreachable: render nothing at all — no
+   * empty section, no "no events" heading. Note this is a server component, so
+   * there is no loading state to confuse with this one; a skeleton keyed off
+   * `events.length === 0` would never resolve on a page whose filter
+   * legitimately matches zero events.
+   */
+  if (events.length === 0) return null;
 
   return (
-    <section id="events" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-serif">
+    <section id="events" className="bg-gray-50 py-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 font-serif text-3xl font-bold text-gray-900 sm:text-4xl">
             Upcoming Events
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
+          <p className="mx-auto max-w-3xl text-left text-xl text-gray-600">
             Take part in thoughtful events that support your growth, celebrate
             your identity, and empower you to lead with confidence.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {filteredEvents.map((event, index) => (
-            <div
-              key={index}
-              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-[#fef9c3] rounded-lg p-3">
-                    <Calendar
-                      className="h-6 w-6 text-accent"
-                      aria-hidden="true"
-                    />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-gray-900">
-                      {event.date}
-                    </div>
-                    <div className="flex items-center text-gray-600 mt-1">
-                      <Clock className="h-4 w-4 mr-1" aria-hidden="true" />
-                      {event.time}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                {event.title}
-              </h3>
-
-              <div className="flex items-center text-gray-600 mb-3">
-                <MapPin className="h-4 w-4 mr-1" aria-hidden="true" />
-                {event.location}
-              </div>
-
-              <p className="text-gray-600 leading-relaxed">
-                {event.description}
-              </p>
-
-              {event.link && (
-                <div className="flex items-center mt-4 gap-4">
-                  <Link
-                    href={event.link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-black font-medium underline hover:no-underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-                  >
-                    {event.link.label}
-                    <ExternalLink className="h-4 w-4 ml-1" aria-hidden="true" />
-                  </Link>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+        <EventsGrid events={events} />
       </div>
     </section>
   );
