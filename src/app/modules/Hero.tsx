@@ -46,7 +46,7 @@ export function Hero() {
                 className="w-full sm:w-auto bg-primary hover:bg-[#00687a] text-white px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
               >
                 <Link
-                  href="https://calstatela.instructure.com/enroll/W8BRXJ"
+                  href="https://calstatela.instructure.com/enroll/G9PART"
                   className="inline-flex items-center"
                 >
                   Sign Up
