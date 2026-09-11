@@ -33,21 +33,25 @@ export function EventCard({ event, onSelect }: EventCardProps) {
     >
       {/* Lifting the date into a fixed-width badge is what makes the card read
           landscape. As a third stacked text row it made every card four lines
-          tall regardless of width and handed the title no more room. */}
+          tall regardless of width and handed the title no more room.
+
+          Weekday over day, and no month or year: the month heading above the
+          card carries those, and repeating `SEP 2026` down ten consecutive
+          cards is noise. The weekday earns the line it takes — students pick
+          events by which afternoon they are free, not by date arithmetic. */}
       <div className="w-20 shrink-0 rounded-lg bg-[#fef9c3] px-2 py-3 text-center">
         <div className="text-xs font-semibold tracking-wide text-primary uppercase">
-          {badge.month}
+          {badge.weekday}
         </div>
         <div className="text-3xl leading-tight font-bold text-gray-900">
           {badge.day}
         </div>
-        <div className="text-xs text-primary">{badge.year}</div>
       </div>
 
       <div className="min-w-0 flex-1">
-        <h3 className="text-lg font-semibold text-gray-900 transition-colors group-hover:text-primary">
+        <h4 className="text-lg font-semibold text-gray-900 transition-colors group-hover:text-primary">
           {event.title}
-        </h3>
+        </h4>
 
         <div className="mt-2 flex items-center text-sm text-gray-600">
           <Clock className="mr-2 h-4 w-4 shrink-0" aria-hidden="true" />

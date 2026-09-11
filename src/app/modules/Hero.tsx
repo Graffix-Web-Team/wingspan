@@ -27,13 +27,26 @@ export function Hero() {
                 className="hidden md:block"
               />
             </div>
+            {/* `w-full` is load-bearing, not decoration. `width={400}` reaches
+                the DOM as a real width attribute, so without it the logo lays
+                out at a flat 400px — wider than an iPhone SE's 343px of content
+                box. That overflow scrolled the whole document, and since the
+                page's white background is a normal block exactly one viewport
+                wide, the strip past 375px showed the beige `:root` colour
+                underneath. Preflight's `img { max-width: 100% }` does not save
+                this: `max-w-md` overrides it with 448px, which 400 fits inside.
+
+                Keep the width/height attributes — with `w-full h-auto` they no
+                longer size anything, they just give the browser the aspect
+                ratio to reserve, which is what keeps the hero from jumping as
+                the SVG loads. */}
             <Image
               alt="Wingspan Leadership Program"
               src="https://bubqscxokeycpuuoqphp.supabase.co/storage/v1/object/public/wingspan/Stacked_teal.svg"
               width={400}
               height={200}
               fetchPriority="high"
-              className="block md:hidden max-w-md mx-auto h-auto"
+              className="block md:hidden w-full max-w-md mx-auto h-auto"
               sizes="(max-width: 768px) 100vw, 400px"
             />
             <h1 className="text-xl pt-10 md:pt-0 sm:text-2xl text-gray-600 mb-8 leading-relaxed">

@@ -99,7 +99,20 @@ export default function RootLayout({
           content="98QibqO4Cewhv2-IBt3kJvc8WBbPeqaTdmiux1xcP9I"
         />
       </head>
-      <body>
+      {/*
+       * Browser extensions write their own attributes onto `<body>` before
+       * React hydrates — ColorZilla adds `cz-shortcut-listen="true"`, Grammarly
+       * a pair of `data-gr-*` — and React reports each as a hydration mismatch
+       * it "won't patch up". The markup is fine; the DOM was edited underneath
+       * us by software we do not ship.
+       *
+       * This suppresses that one element's attribute and text diffing only. It
+       * does NOT cascade: mismatches anywhere in the tree below still report
+       * normally, which is what keeps this from becoming a blanket mute. Safe
+       * here because nothing in the app sets attributes on `<body>` — the tag
+       * is bare, so every attribute it ever carries came from an extension.
+       */}
+      <body suppressHydrationWarning>
         <GoogleAnalytics />
         <Navigation />
         {children}

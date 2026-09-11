@@ -37,7 +37,7 @@ export function CallToAction() {
             className="min-h-12 w-full bg-accent py-3 text-body-text transition-all duration-300 hover:scale-105 hover:bg-primary hover:text-light-background"
           >
             <Link
-              href="https://forms.office.com/r/fpLZipPcJK"
+              href="https://calstatela.instructure.com/enroll/G9PART"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 px-6"
