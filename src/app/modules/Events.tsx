@@ -1,9 +1,11 @@
 import { fetchCampusGroupsEvents } from '@/lib/campus-groups';
 import { selectWingspanEvents, type WingspanEvent } from '@/lib/events';
-import { EventsGrid } from '@/components/events/EventsGrid';
+import { EventsList } from '@/components/events/EventsList';
+import { EventsEmpty } from '@/components/events/EventsEmpty';
 
 export async function Events() {
   let events: WingspanEvent[] = [];
+  let reachable = true;
 
   try {
     /*
@@ -18,16 +20,24 @@ export async function Events() {
   } catch (error) {
     // Keep the rest of the page up; the section below renders nothing.
     console.error('Could not load Wingspan events from CampusGroups', error);
+    reachable = false;
   }
 
   /*
-   * Nothing tagged, or the feed is unreachable: render nothing at all — no
-   * empty section, no "no events" heading. Note this is a server component, so
-   * there is no loading state to confuse with this one; a skeleton keyed off
-   * `events.length === 0` would never resolve on a page whose filter
-   * legitimately matches zero events.
+   * Two different kinds of nothing, told apart because they deserve different
+   * answers.
+   *
+   * The feed is unreachable: render nothing at all. We do not know what is on
+   * the calendar, and a section claiming there is nothing would be a claim we
+   * cannot support. Note this is a server component, so there is no loading
+   * state to confuse with this one.
+   *
+   * The feed answered with no Wingspan events: that IS the calendar, and it
+   * happens every summer. Keep the section — the nav links to `#events`, and a
+   * link that scrolls nowhere is worse than a heading that says the season is
+   * over.
    */
-  if (events.length === 0) return null;
+  if (!reachable) return null;
 
   return (
     <section id="events" className="bg-gray-50 py-20">
@@ -42,7 +52,7 @@ export async function Events() {
           </p>
         </div>
 
-        <EventsGrid events={events} />
+        {events.length === 0 ? <EventsEmpty /> : <EventsList events={events} />}
       </div>
     </section>
   );
